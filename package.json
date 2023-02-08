@@ -8,23 +8,42 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/carousel": "^5.10.3",
+    "@mantine/core": "^5.10.3",
+    "@mantine/form": "^5.10.3",
+    "@mantine/hooks": "^5.10.3",
+    "@mantine/nprogress": "^5.10.3",
     "@mdx-js/react": "^2.2.1",
+    "embla-carousel-react": "^7.0.9",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "gatsby": "^5.5.0",
-    "gatsby-plugin-image": "^3.5.0",
+    "gatsby-plugin-image": "^3.6.0",
+    "gatsby-plugin-layout": "^4.6.0",
     "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-mantine": "^5.0.0",
     "gatsby-plugin-mdx": "^5.5.0",
-    "gatsby-plugin-sharp": "^5.5.0",
+    "gatsby-plugin-sharp": "^5.6.0",
     "gatsby-plugin-sitemap": "^6.5.0",
-    "gatsby-source-filesystem": "^5.5.0",
-    "gatsby-transformer-sharp": "^5.5.0",
+    "gatsby-source-filesystem": "^5.6.0",
+    "gatsby-transformer-remark": "^6.5.0",
+    "gatsby-transformer-sharp": "^5.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0"
   }
 }
