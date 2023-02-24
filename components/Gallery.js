@@ -53,10 +53,34 @@ const Gallery = ({ pages, basePath }) => {
   const onLastPage = page >= pages.length - 1;
   const navigation = (
     <ul className={style.navigation}>
-      <button type='button' disabled={onFirstPage} onClick={() => setPage(0)}>First</button>
-      <button type='button' disabled={onFirstPage} onClick={() => prev()}>Prev Page</button>
-      <button type='button' disabled={onLastPage} onClick={() => next()}>Next Page</button>
-      <button type='button' disabled={onLastPage} onClick={() => setPage(pages.length - 1)}>Last</button>
+      <button
+        type='button'
+        disabled={onFirstPage}
+        onClick={() => setPage(0)}
+      >
+        <Image src='/first.png' height={50} width={50} alt="first page" />
+      </button>
+      <button
+        type='button'
+        disabled={onFirstPage}
+        onClick={() => prev()}
+      >
+        <Image src='/prev.png' height={50} width={50} alt="previous page" />
+      </button>
+      <button
+        type='button'
+        disabled={onLastPage}
+        onClick={() => next()}
+      >
+        <Image src='/next.png' height={50} width={50} alt="next page" />
+      </button>
+      <button
+        type='button'
+        disabled={onLastPage}
+        onClick={() => setPage(pages.length - 1)}
+      >
+        <Image src='/last.png' height={50} width={50} alt="last page" />
+      </button>
     </ul>
   )
 
