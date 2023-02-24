@@ -1,0 +1,23 @@
+.imgContainer {
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.navigation button {
+  padding: 6px 12px;
+  background: #ccc6af;
+  border: 2px solid;
+  border-radius: 6px;
+}
+
+.navigation button[disabled] {
+  opacity: 0.2;
+  cursor: 'default';
+}
