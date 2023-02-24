@@ -1,0 +1,20 @@
+{
+  "available_languages": [
+    "EN",
+    "IT"
+  ],
+  "chapters": [
+    {
+      "title": "La testa del conte",
+      "desc": "fico",
+      "starts": 0,
+      "pages": 5
+    },
+    {
+      "title": "Caccia agli orchi",
+      "desc": "fico",
+      "starts": 6,
+      "pages": 12
+    }
+  ]
+}
