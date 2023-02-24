@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import _padStart from 'lodash/padStart';
 import style from '../cssModules/Gallery.module.css';
 
-const Gallery = ({ pages, basePath }) => {
+const Gallery = ({ pages, comic, lang }) => {
   const [page, setPage] = useState(0);
 
   const next = useCallback(
@@ -15,6 +15,7 @@ const Gallery = ({ pages, basePath }) => {
     },
     [pages, page]
   );
+
   const prev = useCallback(
     () => {
       if (page <= 0) {
@@ -24,6 +25,7 @@ const Gallery = ({ pages, basePath }) => {
     },
     [page]
   );
+
   useEffect(() => {
     const keyUpManager = (ev) => {
       switch (ev.key) {
@@ -109,7 +111,7 @@ const Gallery = ({ pages, basePath }) => {
       {navigation}
       <div className={style.imgContainer}>
         <Image
-          src={`${basePath}/${pageSrc}`}
+          src={`/${comic}/${lang}/${pageSrc}`}
           alt={page}
           width={800}
           height={1132}

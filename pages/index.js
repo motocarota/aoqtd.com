@@ -5,7 +5,6 @@ import styles from '@/styles/Home.module.css'
 import Gallery from '@/components/Gallery'
 
 export default function Home({ pages }) {
-  console.log({ pages })
   return (
     <>
       <Head>
@@ -15,14 +14,14 @@ export default function Home({ pages }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Gallery pages={pages} basePath={'/aoqtd/EN'}/>
+        <Gallery pages={pages} comic={'aoqtd'} lang={'en'} />
       </main>
     </>
   )
 }
 
 export function getStaticProps() {
-  const postsDirectory = path.join(process.cwd(), './public/aoqtd/EN');
+  const postsDirectory = path.join(process.cwd(), './public/aoqtd/en');
   const filenames = fs.readdirSync(postsDirectory);
 
   return {
