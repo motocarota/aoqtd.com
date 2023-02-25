@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import _padStart from 'lodash/padStart';
 import style from '../cssModules/Gallery.module.css';
 
-const Gallery = ({ pages, comic, lang }) => {
+const Gallery = ({ pages, comic, width = '100vw' }) => {
   const [page, setPage] = useState(0);
 
   const next = useCallback(
@@ -107,15 +107,14 @@ const Gallery = ({ pages, comic, lang }) => {
   )
 
   return (
-    <div>
+    <div style={{ maxWidth: width, margin: 'auto' }}>
       {navigation}
       <div className={style.imgContainer}>
         <Image
           alt={page}
-          src={`/${comic}/${lang}/${pageSrc}`}
+          src={`/${comic}/${pageSrc}`}
           className={style.image}
           fill
-          sizes='100vw'
         />
       </div>
       {navigation}

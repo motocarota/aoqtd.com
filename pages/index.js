@@ -1,7 +1,6 @@
 import path from 'path';
 import fs from 'fs';
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Gallery from '@/components/Gallery'
 
 export default function Home({ pages }) {
@@ -13,8 +12,8 @@ export default function Home({ pages }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <Gallery pages={pages} comic={'aoqtd'} lang={'en'} />
+      <main>
+        <Gallery pages={pages} comic={'aoqtd/en'} width={800} />
       </main>
     </>
   )
