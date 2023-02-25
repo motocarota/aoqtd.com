@@ -4,7 +4,7 @@ const Top = () => {
 
   return (
     <>
-      <Image src="/aoqtd-logo-sm.png" height={337} width={450} alt="www.aoqtd.com logo" />
+      <Image src="/aoqtd-logo-sm.png" height={237} width={320} alt="www.aoqtd.com logo" />
     </>
   );
 };
