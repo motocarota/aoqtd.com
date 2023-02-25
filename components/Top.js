@@ -13,7 +13,8 @@ const Top = () => {
         <Link href="/">Comic</Link>
         <Link href="/strip">Strips</Link>
         <Link href="/monsters">Monsters</Link>
-        <Link href="/rss">RSS</Link>
+        {/* <Link href="/random">Random</Link> */}
+        {/* <Link href="/rss">RSS</Link> */}
         <Link href="/about">About</Link>
       </nav>
     </>

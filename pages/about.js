@@ -10,7 +10,7 @@ export default function About() {
       </p>
       <p>
         Just skip on the next webcomic, then!<br/>
-        This is the story of the typical hobo-murderer wrecking ball group that feasts on dungeon master's tears! I Hope you enjoy it!</p>
+        This is the story of the typical hobo-murderer wrecking ball group that feasts on dungeon master&apos;s tears! I Hope you enjoy it!</p>
     </>
   );
 }
