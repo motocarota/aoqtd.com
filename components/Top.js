@@ -11,7 +11,8 @@ const Top = () => {
       </Link>
       <nav className={style.header}>
         <Link href="/">Comic</Link>
-        <Link href="/strip">Strip</Link>
+        <Link href="/strip">Strips</Link>
+        <Link href="/monsters">Monsters</Link>
         <Link href="/rss">RSS</Link>
         <Link href="/about">About</Link>
       </nav>

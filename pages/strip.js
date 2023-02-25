@@ -2,17 +2,15 @@ import path from 'path';
 import fs from 'fs';
 import Gallery from '@/components/Gallery'
 
-export default function Home({ pages }) {
+export default function Strip({ pages }) {
   
   return (
-    <>
-      <Gallery pages={pages} comic={'aoqtd/it'} width={800} />
-    </>
+    <Gallery pages={pages} comic={'strips'} width={600} />
   )
 }
 
 export function getStaticProps() {
-  const postsDirectory = path.join(process.cwd(), './public/aoqtd/it');
+  const postsDirectory = path.join(process.cwd(), './public/strips');
   const filenames = fs.readdirSync(postsDirectory);
 
   return {
