@@ -111,12 +111,12 @@ const Gallery = ({ pages, comic, lang }) => {
       {navigation}
       <div className={style.imgContainer}>
         <Image
-          src={`/${comic}/${lang}/${pageSrc}`}
           alt={page}
-          width={800}
-          height={1132}
-          priority
-          />
+          src={`/${comic}/${lang}/${pageSrc}`}
+          className={style.image}
+          fill
+          sizes='100vw'
+        />
       </div>
       {navigation}
     </div>
