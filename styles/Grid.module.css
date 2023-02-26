@@ -1,0 +1,32 @@
+.grid {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 800px;
+  flex-wrap: wrap;
+}
+
+.imageCont {
+  max-width: 260px;
+  width: 30%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.imageCont>div {
+  position: unset !important;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.fullscreen {
+  width: 800px;
+  margin: auto;
+  cursor: pointer;
+}

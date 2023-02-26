@@ -1,12 +1,11 @@
 import path from 'path';
 import fs from 'fs';
-import Gallery from '@/components/Gallery'
+import Grid from '@/components/Grid';
 
 export default function Monsters({ pages }) {
-  
   return (
-    <Gallery pages={pages} comic={'monsters'} width={600} />
-  )
+    <Grid pages={pages} comic="monsters" />
+  );
 }
 
 export function getStaticProps() {
@@ -17,5 +16,5 @@ export function getStaticProps() {
     props: {
       pages: filenames,
     },
-  }
+  };
 }

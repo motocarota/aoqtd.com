@@ -1,14 +1,11 @@
 import path from 'path';
 import fs from 'fs';
-import Gallery from '@/components/Gallery'
+import Gallery from '@/components/Gallery';
 
 export default function Home({ pages }) {
-  
   return (
-    <>
-      <Gallery pages={pages} comic={'aoqtd/it'} width={800} />
-    </>
-  )
+    <Gallery pages={pages} comic="aoqtd/it" width={800} />
+  );
 }
 
 export function getStaticProps() {
@@ -19,5 +16,5 @@ export function getStaticProps() {
     props: {
       pages: filenames,
     },
-  }
+  };
 }

@@ -1,117 +1,77 @@
-import Image from "next/image";
-import { useCallback, useEffect, useMemo, useState } from "react";
-import _padStart from 'lodash/padStart';
-import style from '../cssModules/Gallery.module.css';
+import Image from 'next/image';
+import style from '@/styles/Gallery.module.css';
+import useImageList from '@/hooks/useImageList';
 
-const Gallery = ({ pages, comic, width = '100vw' }) => {
-  const [page, setPage] = useState(0);
+function Gallery({ pages, comic, width = '100vw' }) {
+  const {
+    first,
+    prev,
+    next,
+    last,
+    pageSrc,
+    onFirstPage,
+    onLastPage,
+  } = useImageList({ pages });
 
-  const next = useCallback(
-    () => {
-      if (page >= pages.length - 1) {
-        return;
-      }
-      setPage(page + 1);
-    },
-    [pages, page]
-  );
-
-  const prev = useCallback(
-    () => {
-      if (page <= 0) {
-        return;
-      }
-      setPage(page - 1);
-    },
-    [page]
-  );
-
-  useEffect(() => {
-    const keyUpManager = (ev) => {
-      switch (ev.key) {
-        case 'ArrowLeft': {
-          return prev()
-        }
-        case ' ':
-        case 'ArrowRight': {
-          return next();
-        }
-        default: {}
-      }
-    }
-    document.addEventListener("keyup", keyUpManager);
-
-    // clean up
-    return () => {
-      document.removeEventListener("keyup", keyUpManager);
-    };
-  }, [next, prev]);
-
-  let pageSrc = useMemo(
-    () => pages[page],
-    [pages, page],
-  );
-  const onFirstPage = page <= 0;
-  const onLastPage = page >= pages.length - 1;
   const navigation = (
     <ul className={style.navigation}>
       <button
-        type='button'
+        type="button"
         disabled={onFirstPage}
-        onClick={() => setPage(0)}
+        onClick={first}
       >
         <Image
-          src='/first.png'
+          src="/first.png"
           height={50}
           width={50}
           alt="first page"
         />
       </button>
       <button
-        type='button'
+        type="button"
         disabled={onFirstPage}
-        onClick={() => prev()}
+        onClick={prev}
       >
         <Image
-          src='/prev.png'
+          src="/prev.png"
           height={50}
           width={50}
           alt="previous page"
         />
       </button>
       <button
-        type='button'
+        type="button"
         disabled={onLastPage}
-        onClick={() => next()}
+        onClick={next}
       >
         <Image
-          src='/next.png'
+          src="/next.png"
           height={50}
           width={50}
           alt="next page"
         />
       </button>
       <button
-        type='button'
+        type="button"
         disabled={onLastPage}
-        onClick={() => setPage(pages.length - 1)}
+        onClick={last}
       >
         <Image
-          src='/last.png'
+          src="/last.png"
           height={50}
           width={50}
           alt="last page"
         />
       </button>
     </ul>
-  )
+  );
 
   return (
-    <div style={{ maxWidth: width, margin: 'auto' }}>
+    <div className={style.mainContainer} style={{ maxWidth: width }}>
       {navigation}
       <div className={style.imgContainer}>
         <Image
-          alt={page}
+          alt={pageSrc}
           src={`/${comic}/${pageSrc}`}
           className={style.image}
           fill
@@ -120,6 +80,6 @@ const Gallery = ({ pages, comic, width = '100vw' }) => {
       {navigation}
     </div>
   );
-};
+}
 
 export default Gallery;
