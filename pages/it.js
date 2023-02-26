@@ -9,7 +9,7 @@ export default function Home({ pages }) {
 }
 
 export function getStaticProps() {
-  const postsDirectory = path.join(process.cwd(), './public/aoqtd/it');
+  const postsDirectory = path.join(process.cwd(), './public/comic/it');
   const filenames = fs.readdirSync(postsDirectory);
 
   return {
