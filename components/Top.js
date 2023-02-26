@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import style from "../cssModules/Top.module.css";
+import style from "../styles/Top.module.css";
 
 const Top = () => {
 

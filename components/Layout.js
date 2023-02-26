@@ -1,6 +1,6 @@
 import Top from './Top'
 import Footer from './Footer'
-import style from '@/cssModules/Layout.module.css';
+import style from '@/styles/Layout.module.css';
 
 export default function Layout({ children }) {
   return (
