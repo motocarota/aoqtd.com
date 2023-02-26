@@ -14,7 +14,7 @@ export default function Home({ pages }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Gallery pages={pages} comic={'aoqtd/en'} width={800} />
+        <Gallery pages={pages} comic={'comic/en'} width={800} />
       </main>
     </>
   )
