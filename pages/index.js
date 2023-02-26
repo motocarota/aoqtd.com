@@ -21,7 +21,7 @@ export default function Home({ pages }) {
 }
 
 export function getStaticProps() {
-  const postsDirectory = path.join(process.cwd(), './public/aoqtd/en');
+  const postsDirectory = path.join(process.cwd(), './public/comic/en');
   const filenames = fs.readdirSync(postsDirectory);
   generateRssFeed(filenames);
 
