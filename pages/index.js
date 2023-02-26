@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import Head from 'next/head'
 import Gallery from '@/components/Gallery'
+import generateRssFeed from '@/utils/generateFeed';
 
 export default function Home({ pages }) {
   return (
@@ -22,6 +23,7 @@ export default function Home({ pages }) {
 export function getStaticProps() {
   const postsDirectory = path.join(process.cwd(), './public/aoqtd/en');
   const filenames = fs.readdirSync(postsDirectory);
+  generateRssFeed(filenames);
 
   return {
     props: {
