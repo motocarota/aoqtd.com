@@ -15,6 +15,7 @@ const Top = () => {
         <Link href="/monsters">Monsters</Link>
         {/* <Link href="/random">Random</Link> */}
         {/* <Link href="/rss">RSS</Link> */}
+        <a href="https://www.patreon.com/motocarota" target="_blank">Patreon</a>
         <Link href="/about">About</Link>
       </nav>
     </>
