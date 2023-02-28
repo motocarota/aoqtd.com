@@ -7,7 +7,7 @@ const Top = () => {
   return (
     <>
       <Link href="/">
-        <Image src="/aoqtd-logo-sm.png" height={237} width={320} alt="www.aoqtd.com logo" />
+        <Image src="/aoqtd-logo-sm.png" height={240} width={320} alt="www.aoqtd.com logo" />
       </Link>
       <nav className={style.header}>
         <Link href="/">Comic</Link>
