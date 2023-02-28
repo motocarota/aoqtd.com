@@ -21,7 +21,7 @@ function Gallery({ pages, comic, width = '100vw' }) {
         onClick={first}
       >
         <Image
-          src="/first.png"
+          src="/first.webp"
           height={50}
           width={50}
           alt="first page"
@@ -33,7 +33,7 @@ function Gallery({ pages, comic, width = '100vw' }) {
         onClick={prev}
       >
         <Image
-          src="/prev.png"
+          src="/prev.webp"
           height={50}
           width={50}
           alt="previous page"
@@ -45,7 +45,7 @@ function Gallery({ pages, comic, width = '100vw' }) {
         onClick={next}
       >
         <Image
-          src="/next.png"
+          src="/next.webp"
           height={50}
           width={50}
           alt="next page"
@@ -57,7 +57,7 @@ function Gallery({ pages, comic, width = '100vw' }) {
         onClick={last}
       >
         <Image
-          src="/last.png"
+          src="/last.webp"
           height={50}
           width={50}
           alt="last page"

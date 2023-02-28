@@ -9,7 +9,7 @@ export default async function generateRssFeed(posts) {
   description: 'Another stupid fantasy webcomic!',
   site_url,
   feed_url: `${site_url}/rss.xml`,
-  image_url: `${site_url}/aoqtd-logo-sm.png`,
+  image_url: `${site_url}/aoqtd-logo-sm.webp`,
   pubDate: new Date(),
   copyright: `All rights reserved ${new Date().getFullYear()}, Motocarota`,
  };
