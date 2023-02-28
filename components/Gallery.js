@@ -14,7 +14,7 @@ function Gallery({ pages, comic, width = '100vw' }) {
   } = useImageList({ pages });
 
   const navigation = (
-    <ul className={style.navigation}>
+    <div className={style.navigation}>
       <button
         type="button"
         disabled={onFirstPage}
@@ -63,7 +63,7 @@ function Gallery({ pages, comic, width = '100vw' }) {
           alt="last page"
         />
       </button>
-    </ul>
+    </div>
   );
 
   return (
