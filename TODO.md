@@ -1,43 +1,50 @@
 ### TODO AOQTD SITE
 
+1- SISTEMARE IL SITO
+  - aggiornare il tema: piu' colore, meno sterile
+    - guardarmi in giro per trovare soluzioni da copiare
 
-- allegare dei mdx alle pagine del fumetto
+  - aggiungere qualcosa (links...)
 
-  usare la stessa struttura?
-    /blog/<chapter>/<page>.mdx
-    fare la fetch durare il getStaticProps
-
-- creare uno script per convertire in .webp
-
-- convertire tutte le immagini in .webp
-
-- aggiornare il tema: piu' colore, meno sterile
-
-- definire homepage
+  - definire homepage
     intro text
     splash image
-    chapter select?
 
-- language selector automatico?
+2- commenti/post per pagina
 
-- sezione raccomandazioni (?)
+  - allegare dei mdx alle pagine del fumetto
 
-- implementare i commenti usando upstash free tier
-  https://vercel.com/templates/next.js/blog-with-comments
-  https://upstash.com/pricing
-  https://auth0.com/pricing
+    usare la stessa struttura?
+      /blog/<chapter>/<page>.mdx
+      fare la fetch durare il getStaticProps
 
-  vercel free trial? https://vercel.com/pricing
+  - implementare i commenti usando upstash free tier
+    https://vercel.com/templates/next.js/blog-with-comments
+    https://upstash.com/pricing
+    https://auth0.com/pricing
 
+    vercel free trial? https://vercel.com/pricing
 
+3- CONTENUTI
 
-DONE
----
+  - post per ogni pagina
 
-- page navigation
-  la gallery deve leggere la pagina corrente dall'url della pagina
+  - character page
 
-    aoqtd.com/1/22 --> capitolo 1, pagina 22
+  - chapter select
 
-    salvare il fumetto nel seguente formato:
-     / comic / <lang> / <chapter> / aoqtd-<chapter>-<page>.webp
+  - versione in inglese
+  
+  - sezione raccomandazioni (?)
+
+4- OTTIMIZZAZIONI
+
+  - fare in modo che il logo sia una bg-image fixed
+
+  - capire come ho fatto a bindare next/prev sulla tastiera
+
+  - leggere dal browser la lingua e girare automaticamente
+
+  - creare uno script per convertire in .webp
+
+  - convertire tutte le immagini in .webp
