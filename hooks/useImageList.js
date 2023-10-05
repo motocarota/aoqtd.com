@@ -1,86 +1,64 @@
 import {
-  useCallback, useEffect, useMemo, useState,
+	useCallback, useMemo, useState,
 } from 'react';
 
-const useImageList = ({ pages }) => {
-  const [page, setPage] = useState(0);
+const useImageList = ({pages}) => {
+	const [page, setPage] = useState(0);
 
-  const first = useCallback(
-    () => {
-      setPage(0);
-    },
-    [],
-  );
+	const first = useCallback(
+		() => {
+			setPage(0);
+		},
+		[],
+	);
 
-  const last = useCallback(
-    () => {
-      setPage(pages.length - 1);
-    },
-    [pages],
-  );
+	const last = useCallback(
+		() => {
+			setPage(pages.length - 1);
+		},
+		[pages],
+	);
 
-  const next = useCallback(
-    () => {
-      if (page >= pages.length - 1) {
-        return;
-      }
-      setPage(page + 1);
-    },
-    [pages, page],
-  );
+	const next = useCallback(
+		() => {
+			if (page >= pages.length - 1) {
+				return;
+			}
 
-  const prev = useCallback(
-    () => {
-      if (page <= 0) {
-        return;
-      }
-      setPage(page - 1);
-    },
-    [page],
-  );
+			setPage(page + 1);
+		},
+		[pages, page],
+	);
 
-  // keyboard navigation
-  useEffect(() => {
-    const keyUpManager = (ev) => {
-      switch (ev.key) {
-        case 'ArrowLeft': {
-          return prev();
-        }
-        case ' ':
-        case 'ArrowRight': {
-          return next();
-        }
-        default: {
-          return null;
-        }
-      }
-    };
-    document.addEventListener('keyup', keyUpManager);
+	const prev = useCallback(
+		() => {
+			if (page <= 0) {
+				return;
+			}
 
-    // clean up
-    return () => {
-      document.removeEventListener('keyup', keyUpManager);
-    };
-  }, [next, prev]);
+			setPage(page - 1);
+		},
+		[page],
+	);
 
-  // current page src attribute
-  const pageSrc = useMemo(
-    () => pages[page],
-    [pages, page],
-  );
-  const onFirstPage = page <= 0;
-  const onLastPage = page >= pages.length - 1;
+	// Current page src attribute
+	const pageSrc = useMemo(
+		() => pages[page],
+		[pages, page],
+	);
+	const onFirstPage = page <= 0;
+	const onLastPage = page >= pages.length - 1;
 
-  return {
-    page,
-    first,
-    last,
-    next,
-    prev,
-    pageSrc,
-    onFirstPage,
-    onLastPage,
-  };
+	return {
+		page,
+		first,
+		last,
+		next,
+		prev,
+		pageSrc,
+		onFirstPage,
+		onLastPage,
+	};
 };
 
 export default useImageList;
