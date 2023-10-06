@@ -4,7 +4,7 @@ import extractValues from '@/utils/extractValues';
 import getPageLink from '@/utils/getPageLink';
 import getChapterLink from '@/utils/getChapterLink';
 import getImageUrl from '@/utils/getImageUrl';
-import {Box, Button, Group, Space, Title, UnstyledButton} from '@mantine/core';
+import {Button, ButtonGroup, Group, Space, Title, UnstyledButton} from '@mantine/core';
 import getLastPage from '@/utils/geLastPage';
 import readAllPages from '@/utils/getAllPages';
 import useKeyboardNavigation from '@/hooks/useKeyboardNavigation';
@@ -40,7 +40,7 @@ export default function Home({
 		<>
 			<main>
 				<Title order={3} my='md'>
-          Chapter {chapter} Page {page}
+          Capitolo:{chapter} Pagina:{page}
 				</Title>
 				<UnstyledButton
 					component={Link}
@@ -54,64 +54,70 @@ export default function Home({
 					/>
 				</UnstyledButton>
 				<Group justify='center' wrap='wrap'>
-					<Box>
+					<ButtonGroup>
 						<Button
+							variant='subtle'
 							disabled={isFirstPage}
 							component={Link}
 							href={'/it/01/00'}
 							leftSection={<Image src='/first.png' width={15} height={15} />}
 						>
-          First
+          Inizio
 						</Button>
 						<Button
+							variant='subtle'
 							disabled={!prevChapter}
 							component={Link}
 							href={prevChapter}
 							leftSection={<Image src='/prev-c.png' width={15} height={15} />}
 						>
-          chapter
+          Capitolo
 						</Button>
 
 						<Button
+							variant='subtle'
 							disabled={!prevPage}
 							component={Link}
 							href={prevPage}
 							leftSection={<Image src='/prev.png' width={15} height={15} />}
 						>
-            page
+            Pagina
 						</Button>
-					</Box>
+					</ButtonGroup>
 
 					<Space px='lg' />
 
-					<Box>
+					<ButtonGroup>
 						<Button
+							variant='subtle'
 							disabled={!nextPage}
 							component={Link}
 							href={nextPage}
 							rightSection={<Image src='/next.png' width={15} height={15} />}
 						>
-            page
+            Pagina
 						</Button>
 
 						<Button
+							variant='subtle'
 							disabled={!nextChapter}
 							component={Link}
 							href={nextChapter}
 							rightSection={<Image src='/next-c.png' width={15} height={15} />}
 						>
-            chapter
+            Capitolo
 						</Button>
 
 						<Button
+							variant='subtle'
 							disabled={isLastPage}
 							component={Link}
 							href={lastPage}
 							rightSection={<Image src='/last.png' width={15} height={15} />}
 						>
-          Last
+						Ultima
 						</Button>
-					</Box>
+					</ButtonGroup>
 				</Group>
 			</main>
 		</>
