@@ -10,10 +10,10 @@ const theme = createTheme({
 
 export default function App({Component, pageProps}) {
 	return (
-		<Layout>
-			<MantineProvider theme={theme}>
+		<MantineProvider theme={theme}>
+			<Layout>
 				<Component {...pageProps} />
-			</MantineProvider>
-		</Layout>
+			</Layout>
+		</MantineProvider>
 	);
 }
