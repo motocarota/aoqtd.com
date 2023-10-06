@@ -4,7 +4,9 @@
 
   - definire homepage
     - intro text/splash image
-    - chapter select
+
+  - aggiungere tooltip al bottone next quando disabilitato
+    continue, new page every week|
 
   - aggiornare il tema: piu' colore, meno sterile
     - guardarmi in giro per trovare soluzioni da copiare
@@ -38,6 +40,9 @@
 
   - character page
 
+  - new reader?
+
+  - Y no social? webtoon? ...?
 
   - valutare i contenuti extra
     - credits, note, ... tutta la roba noiosa che mettono prima dopo la storia
@@ -52,6 +57,12 @@
 
   - sezione raccomandazioni (?)
 
+    https://www.hiveworkscomics.com/
+
+    webcomics
+      http://webcomics.dualsquirrel.net/
+      http://jessfink.com/Chester5000XYV/
+
   - versione in inglese
 
 4- OTTIMIZZAZIONI
@@ -65,3 +76,8 @@
   - creare uno script per convertire in .webp
 
   - convertire tutte le immagini in .webp
+
+5- ISSUES
+  
+  - [LOW] e' possibile pasticciare con il focus da mobile e cliccare sui bottoni disabilitati
+
