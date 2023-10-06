@@ -2,16 +2,12 @@
 
 1- SISTEMARE IL SITO
 
-  - definire homepage
-    - intro text/splash image
-
   - aggiungere tooltip al bottone next quando disabilitato
     continue, new page every week|
 
   - aggiornare il tema: piu' colore, meno sterile
-    - guardarmi in giro per trovare soluzioni da copiare
 
-  - aggiungere qualcosa (links...)
+  - aggiungere qualcosa (links, banner, sezioni,...)
 
 2- commenti/post per pagina
 
