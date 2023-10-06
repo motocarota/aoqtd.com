@@ -1,22 +1,29 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import style from '../styles/Top.module.css';
+import {Button, Group} from '@mantine/core';
+
+const links = [
+	{to: '/it/01/00', label: 'Comic'},
+	// {to: '/strip', label: 'Strips'},
+	{to: '/monsters', label: 'Monsters'},
+	{href: 'https://motocarota.art', label: 'Author'},
+	{href: 'https://www.patreon.com/motocarota', label: 'Patreon'},
+	{to: '/about', label: 'About'},
+];
 
 const Top = () => (
-	<>
+	<Group justify='center'>
 		<Link href='/'>
-			<Image src='/aoqtd-logo-sm.webp' height={240} width={320} alt='www.aoqtd.com logo' />
+			<Image src='/aoqtd-logo-sm.webp' height={160} width={220} alt='www.aoqtd.com logo' />
 		</Link>
-		<nav className={style.header}>
-			<Link href='/'>Comic</Link>
-			<Link href='/strip'>Strips</Link>
-			<Link href='/monsters'>Monsters</Link>
-			{/* <Link href="/random">Random</Link> */}
-			{/* <Link href="/rss">RSS</Link> */}
-			<a href='https://www.patreon.com/motocarota' target='_blank' rel='noreferrer'>Patreon</a>
-			<Link href='/about'>About</Link>
-		</nav>
-	</>
+		<Button.Group>
+			{links.map(({label, to, href}) => (
+				(to)
+					? <Button key={label} variant='subtle' component={Link} href={to}>{label}</Button>
+					: <Button key={label} variant='subtle' component='a' href={href} target='_blank' rel='noreferrer'>{label}</Button>
+			))}
+		</Button.Group>
+	</Group>
 );
 
 export default Top;
