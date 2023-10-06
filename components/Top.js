@@ -8,7 +8,7 @@ const links = [
 	{to: '/monsters', label: 'Monsters'},
 	{href: 'https://motocarota.art', label: 'Author'},
 	{href: 'https://www.patreon.com/motocarota', label: 'Patreon'},
-	{to: '/about', label: 'About'},
+	{to: '/faq', label: 'FAQ'},
 ];
 
 const Top = () => (
