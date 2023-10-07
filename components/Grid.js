@@ -12,10 +12,10 @@ function Grid({pages, comic}) {
 		return (
 			<div onClick={() => setSelection(null)}>
 				<Image
-					className={style.fullscreen}
 					src={`/${comic}/${selection}`}
 					alt={selection}
-					fill
+					height={600}
+					width={480}
 				/>
 			</div>
 		);
