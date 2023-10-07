@@ -20,13 +20,6 @@
 
 .image {
   object-fit: contain;
-  width: 100% !important;
   position: relative !important;
   height: unset !important;
-}
-
-.fullscreen {
-  width: 800px;
-  margin: auto;
-  cursor: pointer;
 }
