@@ -55,7 +55,7 @@ export default function Comic({comic}) {
 					<Button
 						variant='subtle'
 						disabled={isFirstPage}
-						component={Link}
+						component={isFirstPage ? null : Link}
 						href={'/it/01/00'}
 						leftSection={<Image priority={false} src='/first.png' width={15} height={15} />}
 					>
@@ -65,7 +65,7 @@ export default function Comic({comic}) {
 					<Button
 						variant='subtle'
 						disabled={!prevChapter}
-						component={Link}
+						component={prevChapter ? Link : null}
 						href={prevChapter}
 						leftSection={<Image priority={false} src='/prev-c.png' width={15} height={15} />}
 					>
@@ -75,7 +75,7 @@ export default function Comic({comic}) {
 					<Button
 						variant='subtle'
 						disabled={!prevPage}
-						component={Link}
+						component={prevPage ? Link : null}
 						href={prevPage}
 						leftSection={<Image priority={false} src='/prev.png' width={15} height={15} />}
 					>
@@ -89,7 +89,7 @@ export default function Comic({comic}) {
 					<Button
 						variant='subtle'
 						disabled={!nextPage}
-						component={Link}
+						component={nextPage ? Link : null}
 						href={nextPage}
 						rightSection={<Image priority={false} src='/next.png' width={15} height={15} />}
 					>
@@ -99,7 +99,7 @@ export default function Comic({comic}) {
 					<Button
 						variant='subtle'
 						disabled={!nextChapter}
-						component={Link}
+						component={nextChapter ? Link : null}
 						href={nextChapter}
 						rightSection={<Image priority={false} src='/next-c.png' width={15} height={15} />}
 					>
@@ -109,7 +109,7 @@ export default function Comic({comic}) {
 					<Button
 						variant='subtle'
 						disabled={isLastPage}
-						component={Link}
+						component={isLastPage ? null : Link}
 						href={lastPage}
 						rightSection={<Image priority={false} src='/last.png' width={15} height={15} />}
 					>
