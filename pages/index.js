@@ -1,11 +1,10 @@
-import path from 'path';
-import fs from 'fs';
 import generateRssFeed from '@/utils/generateFeed';
 import {Card, Group, Space, Text, Title} from '@mantine/core';
 import Image from 'next/image';
 import Link from 'next/link';
 import getChapterLink from '@/utils/getChapterLink';
 import extractValues from '@/utils/extractValues';
+import getAllPages from '@/utils/getAllPages';
 
 export default function Home({chapters}) {
 	return (
@@ -46,8 +45,7 @@ export default function Home({chapters}) {
 }
 
 export function getStaticProps() {
-	const postsDirectory = path.join(process.cwd(), './public/comic/it');
-	const pages = fs.readdirSync(postsDirectory).filter(f => f.endsWith('.png'));
+	const pages = getAllPages();
 	const chapters = pages.filter(f => f.endsWith('00.png'));
 
 	generateRssFeed(pages);
