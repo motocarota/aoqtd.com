@@ -1,10 +1,10 @@
 import generateRssFeed from '@/utils/generateFeed';
-import {Card, Group, Space, Text, Title} from '@mantine/core';
+import {Group, Paper, Space, Text, Title} from '@mantine/core';
 import Image from 'next/image';
 import Link from 'next/link';
 import getChapterLink from '@/utils/getChapterLink';
 import extractValues from '@/utils/extractValues';
-import getAllPages from '@/utils/getAllPages';
+import {getAllPages} from '@/api/comics';
 
 export default function Home({chapters}) {
 	return (
@@ -16,9 +16,9 @@ export default function Home({chapters}) {
 			<Text>Questa e&apos; la storia di un manipolo di avventurieri brutti, puzzolenti, cattivi ...e anche un po&apos; stronzi.</Text>
 			<Text>Non dire di non essere stato avvisato...</Text>
 			<Space m='md' />
-			<Group justify='center' maw={600} m={'auto'}>
+			<Group justify='center' maw={660} m={'auto'}>
 				{chapters.map(({image, url}, index) => (
-					<Card
+					<Paper
 						key={index}
 						shadow='sm'
 						padding='xl'
@@ -27,16 +27,13 @@ export default function Home({chapters}) {
 						withBorder
 						variant='default'
 					>
-						<Card.Section>
-							<Image
-								src={`/comic/it/${image}`}
-								height={100}
-								width={160}
-								alt='No way!'
-							/>
-						</Card.Section>
-						<Text>Capitolo {index}</Text>
-					</Card>
+						<Image
+							src={`/comic/it/${image}`}
+							height={200}
+							width={300}
+							alt='No way!'
+						/>
+					</Paper>
 
 				))}
 			</Group>
