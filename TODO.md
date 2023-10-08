@@ -1,14 +1,5 @@
 ### TODO AOQTD SITE
 
-1- SISTEMARE IL SITO
-
-  - aggiungere tooltip al bottone next quando disabilitato
-    continue, new page every week|
-
-  - aggiornare il tema: piu' colore, meno sterile
-
-  - aggiungere qualcosa (links, banner, sezioni,...)
-
 2- commenti/post per pagina
 
   - allegare dei mdx alle pagine del fumetto
@@ -27,21 +18,53 @@
 3- CONTENUTI
 
   - ricontrollare tutti i testi
+    CAP 1
+      4 p.deformata
+      8 hrok
+      9 slpines
+      13 hruk
+      17 get him
+      19 p.deformata
+      23 hruk
+      25 --> ok panico!
+      31 txt
+      32 mettere piu' verde nella pagina
+    CAP 2
+      cover
+      2 txt
+      8 aureola mancante
+      12 togliere o rifare
+      13 [e cosi'...]
+    CAP 3
+      cover
+      2 rivedere incendio, xp gained
+      3 spiegare meglio xp guadagnata
+      5 txt
+      10 "nota per il futuro:" , txt
+      11 add fuoco fumo
+      12 togliere txt dm
+      15 txt
+    CAP 4
+      1 "non ci servono piu' le tue stupide missioni, ora siamo potenti!"
+      7 aggiungere pagina
+    CAP 5
+      cover
+      1 hruk
+      3 splines
+      4 5 6 txt tutti
+
+
 
   - ricontrollare tutti i nomi
     splines = stuart/stu
     hurk = croc
 
-  - post per ogni pagina
-
   - character page
 
   - new reader?
 
-  - Y no social? webtoon? ...?
-
   - valutare i contenuti extra
-    - credits, note, ... tutta la roba noiosa che mettono prima dopo la storia
+    - pagina credits, note, ... tutta la roba noiosa che mettono prima dopo la storia
 
     - illustrazioni/immagini di accompagnamento/rottura tra i capitoli stile db 
       - goku in moto/auto/a cavallo di un dino
@@ -63,10 +86,6 @@
 
 4- OTTIMIZZAZIONI
 
-  - fare in modo che il logo sia una bg-image fixed
-
-  - capire come ho fatto a bindare next/prev sulla tastiera
-
   - leggere dal browser la lingua e girare automaticamente
 
   - creare uno script per convertire in .webp
@@ -75,5 +94,14 @@
 
 5- ISSUES
   
-  - [LOW] e' possibile pasticciare con il focus da mobile e cliccare sui bottoni disabilitati
 
+
+DOPO
+---
+- aggiungere qualcosa (links, banner, sezioni,...)
+- tenere traccia dei capitoli gia' letti via LS
+- aggiungere tooltip al bottone next quando disabilitato
+  continue, new page every week|
+- aggiornare il tema: piu' colore, meno sterile
+
+- provare i typings via commento
