@@ -1,10 +1,7 @@
 ### TODO AOQTD SITE
 
 2- commenti/post per pagina
-
-  - fix and test RSS feed
-  al momento il link e' alle immagini secche, deve essere al post
-
+  
   - implementare i commenti usando upstash free tier
     https://vercel.com/templates/next.js/blog-with-comments
     https://upstash.com/pricing
@@ -91,6 +88,7 @@
 
 DOPO
 ---
+- includere il post (o un excerpt nel feed rss!)
 - aggiungere qualcosa (links, banner, sezioni,...)
 - tenere traccia dei capitoli gia' letti via LS
 - aggiungere tooltip al bottone next quando disabilitato
