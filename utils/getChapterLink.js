@@ -1,5 +1,5 @@
 import getImageUrl from './getImageUrl';
-import pad2 from './pad2';
+import _padStart from 'lodash/padStart';
 
 function getChapterLink({pages, chapter, skipCheck = false}) {
 	if (!skipCheck) {
@@ -9,9 +9,9 @@ function getChapterLink({pages, chapter, skipCheck = false}) {
 		}
 	}
 
-	const c = pad2(chapter);
+	const c = _padStart(chapter, 2, '0');
 
-	return `/it/${c}/00`;
+	return `/it/${c}/000`;
 }
 
 export default getChapterLink;
