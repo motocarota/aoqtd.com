@@ -2,508 +2,472 @@
     <channel>
         <title><![CDATA[AOQTD.com | RSS Feed]]></title>
         <description><![CDATA[Another stupid fantasy webcomic!]]></description>
-        <link>https://www.aoqtd.com</link>
+        <link>http://localhost:3000</link>
         <image>
-            <url>https://www.aoqtd.com/aoqtd-logo-sm.webp</url>
+            <url>http://localhost:3000/aoqtd-logo-sm.webp</url>
             <title>AOQTD.com | RSS Feed</title>
-            <link>https://www.aoqtd.com</link>
+            <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Oct 2023 18:56:47 GMT</lastBuildDate>
-        <atom:link href="https://www.aoqtd.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 08 Oct 2023 18:56:47 GMT</pubDate>
+        <lastBuildDate>Sun, 15 Oct 2023 22:11:16 GMT</lastBuildDate>
+        <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 15 Oct 2023 22:11:16 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023, Motocarota]]></copyright>
         <item>
-            <title><![CDATA[aoqtd-01-00.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-00.png" alt="aoqtd-01-00.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-00.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-00.png</guid>
+            <title><![CDATA[Chapter 01, Page 000]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_000.webp" alt="aoqtd-01_000.webp />"]]></description>
+            <link>/it/01/000</link>
+            <guid isPermaLink="true">/it/01/000</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-01.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-01.png" alt="aoqtd-01-01.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-01.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-01.png</guid>
+            <title><![CDATA[Chapter 01, Page 001]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_001.webp" alt="aoqtd-01_001.webp />"]]></description>
+            <link>/it/01/001</link>
+            <guid isPermaLink="true">/it/01/001</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-02.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-02.png" alt="aoqtd-01-02.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-02.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-02.png</guid>
+            <title><![CDATA[Chapter 01, Page 002]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_002.webp" alt="aoqtd-01_002.webp />"]]></description>
+            <link>/it/01/002</link>
+            <guid isPermaLink="true">/it/01/002</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-03.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-03.png" alt="aoqtd-01-03.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-03.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-03.png</guid>
+            <title><![CDATA[Chapter 01, Page 003]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_003.webp" alt="aoqtd-01_003.webp />"]]></description>
+            <link>/it/01/003</link>
+            <guid isPermaLink="true">/it/01/003</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-04.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-04.png" alt="aoqtd-01-04.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-04.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-04.png</guid>
+            <title><![CDATA[Chapter 01, Page 004]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_004.webp" alt="aoqtd-01_004.webp />"]]></description>
+            <link>/it/01/004</link>
+            <guid isPermaLink="true">/it/01/004</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-05.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-05.png" alt="aoqtd-01-05.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-05.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-05.png</guid>
+            <title><![CDATA[Chapter 01, Page 005]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_005.webp" alt="aoqtd-01_005.webp />"]]></description>
+            <link>/it/01/005</link>
+            <guid isPermaLink="true">/it/01/005</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-06.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-06.png" alt="aoqtd-01-06.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-06.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-06.png</guid>
+            <title><![CDATA[Chapter 01, Page 006]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_006.webp" alt="aoqtd-01_006.webp />"]]></description>
+            <link>/it/01/006</link>
+            <guid isPermaLink="true">/it/01/006</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-07.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-07.png" alt="aoqtd-01-07.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-07.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-07.png</guid>
+            <title><![CDATA[Chapter 01, Page 007]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_007.webp" alt="aoqtd-01_007.webp />"]]></description>
+            <link>/it/01/007</link>
+            <guid isPermaLink="true">/it/01/007</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-08.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-08.png" alt="aoqtd-01-08.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-08.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-08.png</guid>
+            <title><![CDATA[Chapter 01, Page 008]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_008.webp" alt="aoqtd-01_008.webp />"]]></description>
+            <link>/it/01/008</link>
+            <guid isPermaLink="true">/it/01/008</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-09.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-09.png" alt="aoqtd-01-09.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-09.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-09.png</guid>
+            <title><![CDATA[Chapter 01, Page 009]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_009.webp" alt="aoqtd-01_009.webp />"]]></description>
+            <link>/it/01/009</link>
+            <guid isPermaLink="true">/it/01/009</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-10.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-10.png" alt="aoqtd-01-10.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-10.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-10.png</guid>
+            <title><![CDATA[Chapter 01, Page 010]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_010.webp" alt="aoqtd-01_010.webp />"]]></description>
+            <link>/it/01/010</link>
+            <guid isPermaLink="true">/it/01/010</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-11.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-11.png" alt="aoqtd-01-11.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-11.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-11.png</guid>
+            <title><![CDATA[Chapter 01, Page 011]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_011.webp" alt="aoqtd-01_011.webp />"]]></description>
+            <link>/it/01/011</link>
+            <guid isPermaLink="true">/it/01/011</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-12.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-12.png" alt="aoqtd-01-12.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-12.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-12.png</guid>
+            <title><![CDATA[Chapter 01, Page 012]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_012.webp" alt="aoqtd-01_012.webp />"]]></description>
+            <link>/it/01/012</link>
+            <guid isPermaLink="true">/it/01/012</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-13.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-13.png" alt="aoqtd-01-13.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-13.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-13.png</guid>
+            <title><![CDATA[Chapter 01, Page 013]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_013.webp" alt="aoqtd-01_013.webp />"]]></description>
+            <link>/it/01/013</link>
+            <guid isPermaLink="true">/it/01/013</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-14.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-14.png" alt="aoqtd-01-14.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-14.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-14.png</guid>
+            <title><![CDATA[Chapter 01, Page 014]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_014.webp" alt="aoqtd-01_014.webp />"]]></description>
+            <link>/it/01/014</link>
+            <guid isPermaLink="true">/it/01/014</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-15.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-15.png" alt="aoqtd-01-15.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-15.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-15.png</guid>
+            <title><![CDATA[Chapter 01, Page 015]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_015.webp" alt="aoqtd-01_015.webp />"]]></description>
+            <link>/it/01/015</link>
+            <guid isPermaLink="true">/it/01/015</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-16.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-16.png" alt="aoqtd-01-16.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-16.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-16.png</guid>
+            <title><![CDATA[Chapter 01, Page 016]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_016.webp" alt="aoqtd-01_016.webp />"]]></description>
+            <link>/it/01/016</link>
+            <guid isPermaLink="true">/it/01/016</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-17.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-17.png" alt="aoqtd-01-17.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-17.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-17.png</guid>
+            <title><![CDATA[Chapter 01, Page 017]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_017.webp" alt="aoqtd-01_017.webp />"]]></description>
+            <link>/it/01/017</link>
+            <guid isPermaLink="true">/it/01/017</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-18.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-18.png" alt="aoqtd-01-18.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-18.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-18.png</guid>
+            <title><![CDATA[Chapter 01, Page 018]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_018.webp" alt="aoqtd-01_018.webp />"]]></description>
+            <link>/it/01/018</link>
+            <guid isPermaLink="true">/it/01/018</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-19.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-19.png" alt="aoqtd-01-19.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-19.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-19.png</guid>
+            <title><![CDATA[Chapter 01, Page 019]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_019.webp" alt="aoqtd-01_019.webp />"]]></description>
+            <link>/it/01/019</link>
+            <guid isPermaLink="true">/it/01/019</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-20.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-20.png" alt="aoqtd-01-20.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-20.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-20.png</guid>
+            <title><![CDATA[Chapter 01, Page 020]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_020.webp" alt="aoqtd-01_020.webp />"]]></description>
+            <link>/it/01/020</link>
+            <guid isPermaLink="true">/it/01/020</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-21.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-21.png" alt="aoqtd-01-21.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-21.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-21.png</guid>
+            <title><![CDATA[Chapter 01, Page 021]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_021.webp" alt="aoqtd-01_021.webp />"]]></description>
+            <link>/it/01/021</link>
+            <guid isPermaLink="true">/it/01/021</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-22.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-22.png" alt="aoqtd-01-22.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-22.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-22.png</guid>
+            <title><![CDATA[Chapter 01, Page 022]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_022.webp" alt="aoqtd-01_022.webp />"]]></description>
+            <link>/it/01/022</link>
+            <guid isPermaLink="true">/it/01/022</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-23.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-23.png" alt="aoqtd-01-23.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-23.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-23.png</guid>
+            <title><![CDATA[Chapter 01, Page 023]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_023.webp" alt="aoqtd-01_023.webp />"]]></description>
+            <link>/it/01/023</link>
+            <guid isPermaLink="true">/it/01/023</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-24.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-24.png" alt="aoqtd-01-24.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-24.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-24.png</guid>
+            <title><![CDATA[Chapter 01, Page 024]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_024.webp" alt="aoqtd-01_024.webp />"]]></description>
+            <link>/it/01/024</link>
+            <guid isPermaLink="true">/it/01/024</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-25.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-25.png" alt="aoqtd-01-25.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-25.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-25.png</guid>
+            <title><![CDATA[Chapter 01, Page 025]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_025.webp" alt="aoqtd-01_025.webp />"]]></description>
+            <link>/it/01/025</link>
+            <guid isPermaLink="true">/it/01/025</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-26.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-26.png" alt="aoqtd-01-26.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-26.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-26.png</guid>
+            <title><![CDATA[Chapter 01, Page 026]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_026.webp" alt="aoqtd-01_026.webp />"]]></description>
+            <link>/it/01/026</link>
+            <guid isPermaLink="true">/it/01/026</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-27.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-27.png" alt="aoqtd-01-27.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-27.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-27.png</guid>
+            <title><![CDATA[Chapter 01, Page 027]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_027.webp" alt="aoqtd-01_027.webp />"]]></description>
+            <link>/it/01/027</link>
+            <guid isPermaLink="true">/it/01/027</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-28.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-28.png" alt="aoqtd-01-28.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-28.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-28.png</guid>
+            <title><![CDATA[Chapter 01, Page 028]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_028.webp" alt="aoqtd-01_028.webp />"]]></description>
+            <link>/it/01/028</link>
+            <guid isPermaLink="true">/it/01/028</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-29.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-29.png" alt="aoqtd-01-29.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-29.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-29.png</guid>
+            <title><![CDATA[Chapter 01, Page 029]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_029.webp" alt="aoqtd-01_029.webp />"]]></description>
+            <link>/it/01/029</link>
+            <guid isPermaLink="true">/it/01/029</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-30.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-30.png" alt="aoqtd-01-30.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-30.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-30.png</guid>
+            <title><![CDATA[Chapter 01, Page 030]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_030.webp" alt="aoqtd-01_030.webp />"]]></description>
+            <link>/it/01/030</link>
+            <guid isPermaLink="true">/it/01/030</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-31.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-31.png" alt="aoqtd-01-31.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-31.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-31.png</guid>
+            <title><![CDATA[Chapter 01, Page 031]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_031.webp" alt="aoqtd-01_031.webp />"]]></description>
+            <link>/it/01/031</link>
+            <guid isPermaLink="true">/it/01/031</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-32.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-32.png" alt="aoqtd-01-32.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-32.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-32.png</guid>
+            <title><![CDATA[Chapter 01, Page 032]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_032.webp" alt="aoqtd-01_032.webp />"]]></description>
+            <link>/it/01/032</link>
+            <guid isPermaLink="true">/it/01/032</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-01-33.png]]></title>
-            <description><![CDATA[<img src="aoqtd-01-33.png" alt="aoqtd-01-33.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-01-33.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-01-33.png</guid>
+            <title><![CDATA[Chapter 01, Page 033]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-01_033.webp" alt="aoqtd-01_033.webp />"]]></description>
+            <link>/it/01/033</link>
+            <guid isPermaLink="true">/it/01/033</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-00.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-00.png" alt="aoqtd-02-00.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-00.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-00.png</guid>
+            <title><![CDATA[Chapter 02, Page 000]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_000.webp" alt="aoqtd-02_000.webp />"]]></description>
+            <link>/it/02/000</link>
+            <guid isPermaLink="true">/it/02/000</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-01.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-01.png" alt="aoqtd-02-01.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-01.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-01.png</guid>
+            <title><![CDATA[Chapter 02, Page 001]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_001.webp" alt="aoqtd-02_001.webp />"]]></description>
+            <link>/it/02/001</link>
+            <guid isPermaLink="true">/it/02/001</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-02.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-02.png" alt="aoqtd-02-02.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-02.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-02.png</guid>
+            <title><![CDATA[Chapter 02, Page 002]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_002.webp" alt="aoqtd-02_002.webp />"]]></description>
+            <link>/it/02/002</link>
+            <guid isPermaLink="true">/it/02/002</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-03.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-03.png" alt="aoqtd-02-03.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-03.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-03.png</guid>
+            <title><![CDATA[Chapter 02, Page 003]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_003.webp" alt="aoqtd-02_003.webp />"]]></description>
+            <link>/it/02/003</link>
+            <guid isPermaLink="true">/it/02/003</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-04.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-04.png" alt="aoqtd-02-04.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-04.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-04.png</guid>
+            <title><![CDATA[Chapter 02, Page 004]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_004.webp" alt="aoqtd-02_004.webp />"]]></description>
+            <link>/it/02/004</link>
+            <guid isPermaLink="true">/it/02/004</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-05.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-05.png" alt="aoqtd-02-05.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-05.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-05.png</guid>
+            <title><![CDATA[Chapter 02, Page 005]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_005.webp" alt="aoqtd-02_005.webp />"]]></description>
+            <link>/it/02/005</link>
+            <guid isPermaLink="true">/it/02/005</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-06.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-06.png" alt="aoqtd-02-06.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-06.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-06.png</guid>
+            <title><![CDATA[Chapter 02, Page 006]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_006.webp" alt="aoqtd-02_006.webp />"]]></description>
+            <link>/it/02/006</link>
+            <guid isPermaLink="true">/it/02/006</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-07.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-07.png" alt="aoqtd-02-07.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-07.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-07.png</guid>
+            <title><![CDATA[Chapter 02, Page 007]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_007.webp" alt="aoqtd-02_007.webp />"]]></description>
+            <link>/it/02/007</link>
+            <guid isPermaLink="true">/it/02/007</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-08.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-08.png" alt="aoqtd-02-08.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-08.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-08.png</guid>
+            <title><![CDATA[Chapter 02, Page 008]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_008.webp" alt="aoqtd-02_008.webp />"]]></description>
+            <link>/it/02/008</link>
+            <guid isPermaLink="true">/it/02/008</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-09.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-09.png" alt="aoqtd-02-09.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-09.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-09.png</guid>
+            <title><![CDATA[Chapter 02, Page 009]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_009.webp" alt="aoqtd-02_009.webp />"]]></description>
+            <link>/it/02/009</link>
+            <guid isPermaLink="true">/it/02/009</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-10.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-10.png" alt="aoqtd-02-10.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-10.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-10.png</guid>
+            <title><![CDATA[Chapter 02, Page 010]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_010.webp" alt="aoqtd-02_010.webp />"]]></description>
+            <link>/it/02/010</link>
+            <guid isPermaLink="true">/it/02/010</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-11.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-11.png" alt="aoqtd-02-11.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-11.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-11.png</guid>
+            <title><![CDATA[Chapter 02, Page 011]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_011.webp" alt="aoqtd-02_011.webp />"]]></description>
+            <link>/it/02/011</link>
+            <guid isPermaLink="true">/it/02/011</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-12.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-12.png" alt="aoqtd-02-12.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-12.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-12.png</guid>
+            <title><![CDATA[Chapter 02, Page 012]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_012.webp" alt="aoqtd-02_012.webp />"]]></description>
+            <link>/it/02/012</link>
+            <guid isPermaLink="true">/it/02/012</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-13.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-13.png" alt="aoqtd-02-13.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-13.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-13.png</guid>
+            <title><![CDATA[Chapter 02, Page 013]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_013.webp" alt="aoqtd-02_013.webp />"]]></description>
+            <link>/it/02/013</link>
+            <guid isPermaLink="true">/it/02/013</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-14.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-14.png" alt="aoqtd-02-14.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-14.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-14.png</guid>
+            <title><![CDATA[Chapter 02, Page 014]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-02_014.webp" alt="aoqtd-02_014.webp />"]]></description>
+            <link>/it/02/014</link>
+            <guid isPermaLink="true">/it/02/014</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-02-15.png]]></title>
-            <description><![CDATA[<img src="aoqtd-02-15.png" alt="aoqtd-02-15.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-02-15.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-02-15.png</guid>
+            <title><![CDATA[Chapter 03, Page 000]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_000.webp" alt="aoqtd-03_000.webp />"]]></description>
+            <link>/it/03/000</link>
+            <guid isPermaLink="true">/it/03/000</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-00.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-00.png" alt="aoqtd-03-00.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-00.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-00.png</guid>
+            <title><![CDATA[Chapter 03, Page 001]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_001.webp" alt="aoqtd-03_001.webp />"]]></description>
+            <link>/it/03/001</link>
+            <guid isPermaLink="true">/it/03/001</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-01.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-01.png" alt="aoqtd-03-01.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-01.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-01.png</guid>
+            <title><![CDATA[Chapter 03, Page 002]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_002.webp" alt="aoqtd-03_002.webp />"]]></description>
+            <link>/it/03/002</link>
+            <guid isPermaLink="true">/it/03/002</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-02.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-02.png" alt="aoqtd-03-02.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-02.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-02.png</guid>
+            <title><![CDATA[Chapter 03, Page 003]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_003.webp" alt="aoqtd-03_003.webp />"]]></description>
+            <link>/it/03/003</link>
+            <guid isPermaLink="true">/it/03/003</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-03.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-03.png" alt="aoqtd-03-03.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-03.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-03.png</guid>
+            <title><![CDATA[Chapter 03, Page 004]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_004.webp" alt="aoqtd-03_004.webp />"]]></description>
+            <link>/it/03/004</link>
+            <guid isPermaLink="true">/it/03/004</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-04.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-04.png" alt="aoqtd-03-04.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-04.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-04.png</guid>
+            <title><![CDATA[Chapter 03, Page 005]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_005.webp" alt="aoqtd-03_005.webp />"]]></description>
+            <link>/it/03/005</link>
+            <guid isPermaLink="true">/it/03/005</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-05.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-05.png" alt="aoqtd-03-05.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-05.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-05.png</guid>
+            <title><![CDATA[Chapter 03, Page 006]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_006.webp" alt="aoqtd-03_006.webp />"]]></description>
+            <link>/it/03/006</link>
+            <guid isPermaLink="true">/it/03/006</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-06.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-06.png" alt="aoqtd-03-06.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-06.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-06.png</guid>
+            <title><![CDATA[Chapter 03, Page 007]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_007.webp" alt="aoqtd-03_007.webp />"]]></description>
+            <link>/it/03/007</link>
+            <guid isPermaLink="true">/it/03/007</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-07.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-07.png" alt="aoqtd-03-07.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-07.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-07.png</guid>
+            <title><![CDATA[Chapter 03, Page 008]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_008.webp" alt="aoqtd-03_008.webp />"]]></description>
+            <link>/it/03/008</link>
+            <guid isPermaLink="true">/it/03/008</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-08.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-08.png" alt="aoqtd-03-08.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-08.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-08.png</guid>
+            <title><![CDATA[Chapter 03, Page 009]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_009.webp" alt="aoqtd-03_009.webp />"]]></description>
+            <link>/it/03/009</link>
+            <guid isPermaLink="true">/it/03/009</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-09.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-09.png" alt="aoqtd-03-09.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-09.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-09.png</guid>
+            <title><![CDATA[Chapter 03, Page 010]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_010.webp" alt="aoqtd-03_010.webp />"]]></description>
+            <link>/it/03/010</link>
+            <guid isPermaLink="true">/it/03/010</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-10.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-10.png" alt="aoqtd-03-10.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-10.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-10.png</guid>
+            <title><![CDATA[Chapter 03, Page 011]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_011.webp" alt="aoqtd-03_011.webp />"]]></description>
+            <link>/it/03/011</link>
+            <guid isPermaLink="true">/it/03/011</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-11.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-11.png" alt="aoqtd-03-11.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-11.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-11.png</guid>
+            <title><![CDATA[Chapter 03, Page 012]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_012.webp" alt="aoqtd-03_012.webp />"]]></description>
+            <link>/it/03/012</link>
+            <guid isPermaLink="true">/it/03/012</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-12.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-12.png" alt="aoqtd-03-12.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-12.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-12.png</guid>
+            <title><![CDATA[Chapter 03, Page 013]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_013.webp" alt="aoqtd-03_013.webp />"]]></description>
+            <link>/it/03/013</link>
+            <guid isPermaLink="true">/it/03/013</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-13.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-13.png" alt="aoqtd-03-13.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-13.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-13.png</guid>
+            <title><![CDATA[Chapter 03, Page 014]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_014.webp" alt="aoqtd-03_014.webp />"]]></description>
+            <link>/it/03/014</link>
+            <guid isPermaLink="true">/it/03/014</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-14.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-14.png" alt="aoqtd-03-14.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-14.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-14.png</guid>
+            <title><![CDATA[Chapter 03, Page 015]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_015.webp" alt="aoqtd-03_015.webp />"]]></description>
+            <link>/it/03/015</link>
+            <guid isPermaLink="true">/it/03/015</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-15.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-15.png" alt="aoqtd-03-15.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-15.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-15.png</guid>
+            <title><![CDATA[Chapter 03, Page 016]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_016.webp" alt="aoqtd-03_016.webp />"]]></description>
+            <link>/it/03/016</link>
+            <guid isPermaLink="true">/it/03/016</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-03-16.png]]></title>
-            <description><![CDATA[<img src="aoqtd-03-16.png" alt="aoqtd-03-16.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-03-16.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-03-16.png</guid>
+            <title><![CDATA[Chapter 03, Page 017]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-03_017.webp" alt="aoqtd-03_017.webp />"]]></description>
+            <link>/it/03/017</link>
+            <guid isPermaLink="true">/it/03/017</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-04-00.png]]></title>
-            <description><![CDATA[<img src="aoqtd-04-00.png" alt="aoqtd-04-00.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-04-00.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-04-00.png</guid>
+            <title><![CDATA[Chapter 04, Page 000]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-04_000.webp" alt="aoqtd-04_000.webp />"]]></description>
+            <link>/it/04/000</link>
+            <guid isPermaLink="true">/it/04/000</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-04-01.png]]></title>
-            <description><![CDATA[<img src="aoqtd-04-01.png" alt="aoqtd-04-01.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-04-01.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-04-01.png</guid>
+            <title><![CDATA[Chapter 04, Page 001]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-04_001.webp" alt="aoqtd-04_001.webp />"]]></description>
+            <link>/it/04/001</link>
+            <guid isPermaLink="true">/it/04/001</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-04-02.png]]></title>
-            <description><![CDATA[<img src="aoqtd-04-02.png" alt="aoqtd-04-02.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-04-02.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-04-02.png</guid>
+            <title><![CDATA[Chapter 04, Page 002]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-04_002.webp" alt="aoqtd-04_002.webp />"]]></description>
+            <link>/it/04/002</link>
+            <guid isPermaLink="true">/it/04/002</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-04-03.png]]></title>
-            <description><![CDATA[<img src="aoqtd-04-03.png" alt="aoqtd-04-03.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-04-03.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-04-03.png</guid>
+            <title><![CDATA[Chapter 04, Page 003]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-04_003.webp" alt="aoqtd-04_003.webp />"]]></description>
+            <link>/it/04/003</link>
+            <guid isPermaLink="true">/it/04/003</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-04-04.png]]></title>
-            <description><![CDATA[<img src="aoqtd-04-04.png" alt="aoqtd-04-04.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-04-04.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-04-04.png</guid>
+            <title><![CDATA[Chapter 04, Page 004]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-04_004.webp" alt="aoqtd-04_004.webp />"]]></description>
+            <link>/it/04/004</link>
+            <guid isPermaLink="true">/it/04/004</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-04-05.png]]></title>
-            <description><![CDATA[<img src="aoqtd-04-05.png" alt="aoqtd-04-05.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-04-05.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-04-05.png</guid>
+            <title><![CDATA[Chapter 04, Page 005]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-04_005.webp" alt="aoqtd-04_005.webp />"]]></description>
+            <link>/it/04/005</link>
+            <guid isPermaLink="true">/it/04/005</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-04-07.png]]></title>
-            <description><![CDATA[<img src="aoqtd-04-07.png" alt="aoqtd-04-07.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-04-07.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-04-07.png</guid>
+            <title><![CDATA[Chapter 04, Page 006]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-04_006.webp" alt="aoqtd-04_006.webp />"]]></description>
+            <link>/it/04/006</link>
+            <guid isPermaLink="true">/it/04/006</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-04-08.png]]></title>
-            <description><![CDATA[<img src="aoqtd-04-08.png" alt="aoqtd-04-08.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-04-08.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-04-08.png</guid>
+            <title><![CDATA[Chapter 04, Page 007]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-04_007.webp" alt="aoqtd-04_007.webp />"]]></description>
+            <link>/it/04/007</link>
+            <guid isPermaLink="true">/it/04/007</guid>
         </item>
         <item>
-            <title><![CDATA[aoqtd-05-00.png]]></title>
-            <description><![CDATA[<img src="aoqtd-05-00.png" alt="aoqtd-05-00.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-05-00.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-05-00.png</guid>
-        </item>
-        <item>
-            <title><![CDATA[aoqtd-05-01.png]]></title>
-            <description><![CDATA[<img src="aoqtd-05-01.png" alt="aoqtd-05-01.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-05-01.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-05-01.png</guid>
-        </item>
-        <item>
-            <title><![CDATA[aoqtd-05-02.png]]></title>
-            <description><![CDATA[<img src="aoqtd-05-02.png" alt="aoqtd-05-02.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-05-02.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-05-02.png</guid>
-        </item>
-        <item>
-            <title><![CDATA[aoqtd-05-03.png]]></title>
-            <description><![CDATA[<img src="aoqtd-05-03.png" alt="aoqtd-05-03.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-05-03.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-05-03.png</guid>
-        </item>
-        <item>
-            <title><![CDATA[aoqtd-05-04.png]]></title>
-            <description><![CDATA[<img src="aoqtd-05-04.png" alt="aoqtd-05-04.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-05-04.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-05-04.png</guid>
-        </item>
-        <item>
-            <title><![CDATA[aoqtd-05-05.png]]></title>
-            <description><![CDATA[<img src="aoqtd-05-05.png" alt="aoqtd-05-05.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-05-05.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-05-05.png</guid>
-        </item>
-        <item>
-            <title><![CDATA[aoqtd-05-06.png]]></title>
-            <description><![CDATA[<img src="aoqtd-05-06.png" alt="aoqtd-05-06.png />"]]></description>
-            <link>https://www.aoqtd.com/comic/en/aoqtd-05-06.png</link>
-            <guid isPermaLink="true">https://www.aoqtd.com/comic/en/aoqtd-05-06.png</guid>
+            <title><![CDATA[Chapter 05, Page 000]]></title>
+            <description><![CDATA[<img src="http://localhost:3000/comic/it/aoqtd-05_000.webp" alt="aoqtd-05_000.webp />"]]></description>
+            <link>/it/05/000</link>
+            <guid isPermaLink="true">/it/05/000</guid>
         </item>
     </channel>
 </rss>
