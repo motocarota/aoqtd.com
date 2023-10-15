@@ -2,11 +2,8 @@
 
 2- commenti/post per pagina
 
-  - allegare dei mdx alle pagine del fumetto
-
-    usare la stessa struttura?
-      /blog/<chapter>/<page>.mdx
-      fare la fetch durare il getStaticProps
+  - fix and test RSS feed
+  al momento il link e' alle immagini secche, deve essere al post
 
   - implementare i commenti usando upstash free tier
     https://vercel.com/templates/next.js/blog-with-comments
@@ -59,7 +56,7 @@
     splines = stuart/stu
     hurk = croc
 
-  - character page
+  - character page?
 
   - new reader?
 
@@ -88,10 +85,6 @@
 
   - leggere dal browser la lingua e girare automaticamente
 
-  - creare uno script per convertire in .webp
-
-  - convertire tutte le immagini in .webp
-
 5- ISSUES
   
 
@@ -101,7 +94,8 @@ DOPO
 - aggiungere qualcosa (links, banner, sezioni,...)
 - tenere traccia dei capitoli gia' letti via LS
 - aggiungere tooltip al bottone next quando disabilitato
-  continue, new page every week|
+  continue, new page every week
+    oppure pagina finale
 - aggiornare il tema: piu' colore, meno sterile
 
 - provare i typings via commento
