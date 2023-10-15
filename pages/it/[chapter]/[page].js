@@ -1,7 +1,7 @@
 import extractValues from '@/utils/extractValues';
 import getComicPage from '@/utils/getComicPage';
 import mdToHtml from '@/utils/mdToHtml';
-import {getPostById} from '@/api/posts';
+import {getPostByParams} from '@/api/posts';
 import {getAllPages} from '@/api/comics';
 import Post from '@/components/Post';
 import Comic from '@/components/Comic';
@@ -21,7 +21,7 @@ export default function Home({
 // Returns all the static data for the page
 export async function getStaticProps({params}) {
 	// Read post data
-	const post = getPostById(`post-${params.chapter}-${params.page}`);
+	const post = getPostByParams(params);
 	const md = await mdToHtml(post.content || '');
 
 	// Read comic page data
