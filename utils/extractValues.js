@@ -1,7 +1,10 @@
 
 // Expected name format:
 // {something}-{chapter}_{page}.{extension}
-// ex. aoqtd-12_034.png, coolcomic-2345678_876543.webp
+
+import getValues from './getValues';
+
+// Ex. aoqtd-12_034.png, coolcomic-2345678_876543.webp
 function extractValues(fileName) {
 	if (!fileName) {
 		return null;
@@ -13,10 +16,10 @@ function extractValues(fileName) {
 	const [, rest] = name.split('-');
 	const [chapter = '', page = ''] = rest.split('_');
 
-	return {
+	return getValues({
 		page,
 		chapter,
-	};
+	});
 }
 
 export default extractValues;

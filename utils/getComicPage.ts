@@ -2,14 +2,15 @@ import getLastPage from "./getLastPage";
 import getChapterLink from "./getChapterLink";
 import getImageUrl from "./getImageUrl";
 import getPageLink from "./getPageLink";
+import getValues from "./getValues";
 
 const getComicPage = ({ params, pages }) => {
-	const imageUrl = getImageUrl(params);
-	const index = pages.indexOf(imageUrl);
 	const {
 		page,
 		chapter,
-	} = params;
+	} = getValues(params);
+	const imageUrl = getImageUrl({ chapter, page });
+	const index = pages.indexOf(imageUrl);
 
 	const prevPage = getPageLink({pages, index: index - 1});
 	const nextPage = getPageLink({pages, index: index + 1});
