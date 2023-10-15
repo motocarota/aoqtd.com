@@ -9,7 +9,7 @@ import {getAllPages} from '@/api/comics';
 export default function Home({chapters}) {
 	return (
 		<>
-			<Title m='md'>Benvenuto a bordo, viaggiatore</Title>
+			<Title m='md'>Benvenuto a bordo!</Title>
 			<Text>Cerchi una storia di antiche leggende, eroiche gesta e nobili eroi senza macchia che salvano il mondo dal male?</Text>
 			<Text>Beh, allora sei capitato nel fumetto sbagliato, dolcezza.</Text>
 			<Space m='md'/>
