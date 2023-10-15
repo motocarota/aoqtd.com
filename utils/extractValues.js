@@ -1,7 +1,7 @@
 
 // Expected name format:
-// {something}-{chapter}-{page}.{extension}
-// ex. aoqtd-12-34.png, coolcomic-2345678-876543.webp
+// {something}-{chapter}_{page}.{extension}
+// ex. aoqtd-12_034.png, coolcomic-2345678_876543.webp
 function extractValues(fileName) {
 	if (!fileName) {
 		return null;
@@ -10,7 +10,8 @@ function extractValues(fileName) {
 	// Remove extension
 	const [name] = fileName.split('.');
 	// Reads chapter and name from filename format
-	const [, chapter = '', page = ''] = name.split('-');
+	const [, rest] = name.split('-');
+	const [chapter = '', page = ''] = rest.split('_');
 
 	return {
 		page,

@@ -17,7 +17,7 @@ const getComicPage = ({ params, pages }) => {
 	const nextChapter = getChapterLink({pages, chapter: parseInt(chapter, 10) + 1});
 	const last = getLastPage({pages});
 	const lastPage = `/it/${last.chapter}/${last.page}`;
-	const isFirstPage = page === '00' && chapter === '01';
+	const isFirstPage = page === '000' && chapter === '01';
 	const isLastPage = page === last.page && chapter === last.chapter;
 
 	return {

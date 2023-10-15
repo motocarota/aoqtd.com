@@ -43,7 +43,7 @@ export default function Home({chapters}) {
 
 export function getStaticProps() {
 	const pages = getAllPages();
-	const chapters = pages.filter(f => f.endsWith('00.png'));
+	const chapters = pages.filter(f => f.endsWith('000.webp'));
 
 	generateRssFeed(pages);
 
