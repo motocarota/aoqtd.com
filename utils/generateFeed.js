@@ -16,7 +16,7 @@ function getPostName(post) {
 
 export default async function generateRssFeed(posts) {
 	const feedOptions = {
-		title: 'AOQTD.com | RSS Feed',
+		title: 'Another One Quest To Dust | AOQTD.com',
 		description: 'Another stupid fantasy webcomic! enjoy!',
 		site_url,
 		feed_url: `${site_url}/rss.xml`,
