@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {Button, Group} from '@mantine/core';
 
 const links = [
-	{to: '/it/01/00', label: 'Comic'},
+	{to: '/it/01/000', label: 'Comic'},
 	// {to: '/strip', label: 'Strips'},
 	{to: '/monsters', label: 'Monsters'},
 	{href: 'https://motocarota.art', label: 'Author'},
