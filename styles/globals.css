@@ -108,3 +108,7 @@ h5,
 p {
   margin: 1rem;
 }
+
+.interactive:hover {
+  padding-top: 3px;
+}
