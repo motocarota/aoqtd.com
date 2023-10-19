@@ -88,7 +88,7 @@ export default function FAQ() {
 				</AccordionItem>
 				<AccordionItem value='6'>
 					<AccordionControl>
-						<Title order={4}>
+						<Title order={5}>
 							Mio cuggino disegna meglio di te!
 						</Title>
 					</AccordionControl>
