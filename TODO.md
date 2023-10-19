@@ -2,11 +2,30 @@
 
 # PIANO D'AZIONE:
 
-- [x] import v2
+- pagina work in progress/ci vediamo giovedi' prossimo
+- guardare nuclear pasta per capire che cosa aggiungere al sito
+- settare dimensioni dell'immagine
+  larghezza sempre 700px
+  leggere l'altezza e settarla in modo da non dover avere un formato statico
+
+https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-image-in-node-js
+
+- commenti usando upstash free tier
+    https://vercel.com/templates/next.js/blog-with-comments
+    https://upstash.com/pricing
+    https://auth0.com/pricing
+
+    vercel free trial? https://vercel.com/pricing
+
 - [ ] commenti
 - [ ] versione inglese
 - [ ] aggiustare motocarota.art
-- [ ] 4 pagine pronte per la pubblicazione
+      - togliere commissions, about, comics, contacts
+      - pagina singola con
+        - chi sono, che faccio, come contattarmi
+
+- [ ] post per ogni pagina
+- [ ] 4 pagine di cuscinetto
 ------
 - [ ] rilascio
 ------
@@ -14,14 +33,6 @@
 - [ ] promozione su patreon
 - [ ] contattare nuclear pasta
 
-commenti/post per pagina
-  
-  - implementare i commenti usando upstash free tier
-    https://vercel.com/templates/next.js/blog-with-comments
-    https://upstash.com/pricing
-    https://auth0.com/pricing
-
-    vercel free trial? https://vercel.com/pricing
 
 CONTENUTI
 
