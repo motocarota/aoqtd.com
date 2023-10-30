@@ -20,7 +20,7 @@ export default function FAQ() {
 						<Image src='/me.jpeg' alt='me' height='365' width='486' />
 						<Text>
 							Sono un multiclasse <Anchor href='https://motocarota.art' target='_blank' rel='noreferrer'>artista</Anchor>/<Anchor href='https://simone-poggi.com' target='_blank' rel='noreferrer'>programmatore</Anchor> caotico malvagio.<br/>
-							Classe &apos;83, sono sposato con due figli, vivo in provincia di Genova, il mio cibo preferito e&apos; la pizza, non so ruttare l&apos;alfabeto, ma una volta ho toccato una rana morta.
+							Classe &apos;83, sono sposato con due figli, vivo in provincia di Genova, il mio cibo preferito e&apos; la pizza, e direi che arrivati a questo putno non c&apos;e&apos; piu&apos; assolutamente niente altro da dire.
 						</Text>
 					</AccordionPanel>
 				</AccordionItem>
@@ -32,9 +32,9 @@ export default function FAQ() {
 					</AccordionControl>
 					<AccordionPanel>
 						<Text>
-							Perche&apos; mi stanno fortemente sui coglioni.<br/>
-							Proprio come tutti li reputo un posto di merda, ma a differenza di tutti poi li evito.<br/>
-							Ho ancora qualche account aperto ma sono tutti abbandonati, ho di meglio da fare nella vita che cercare di compiacere un algoritmo del cazzo.
+							Perche&apos; mi stanno fortemente sulle palle.<br/>
+							Proprio come tutti li reputo un posto di merda, con effetti negativi sulla salute mentale delle persone.<br/>
+							Ho ancora qualche account aperto ma uno ad uno li ho tutti abbandonati.
 						</Text>
 					</AccordionPanel>
 				</AccordionItem>
@@ -47,8 +47,7 @@ export default function FAQ() {
 					<AccordionPanel>
 						<Text>
 							Perche&apos; a me piace. E&apos; una serie a cui lavoro da piu&apos; di 20 anni.<br/>
-							Anche se i primi disegni sono brutti, la narrazione confusa, la storia fa pena, ecc ecc a me nonostante tutto queste storie piacciono, quindi perche&apos; no?<br/>
-							Non si tratta di un lavoro ne&apos; ho la mira di farcelo diventare, io ho gia&apos; un lavoro e sto bene dove sto, tutto quello che pubblico qui e&apos; solo per hobby.
+							Anche se i primi disegni sono brutti, la narrazione confusa, la storia fa pena, ecc ecc a me tutto sommato queste storie piacciono, quindi perche&apos; no?<br/>
 						</Text>
 					</AccordionPanel>
 				</AccordionItem>
