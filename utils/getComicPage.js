@@ -1,15 +1,15 @@
-import getLastPage from "./getLastPage";
-import getChapterLink from "./getChapterLink";
-import getImageUrl from "./getImageUrl";
-import getPageLink from "./getPageLink";
-import getValues from "./getValues";
+import getLastPage from './getLastPage';
+import getChapterLink from './getChapterLink';
+import getImageUrl from './getImageUrl';
+import getPageLink from './getPageLink';
+import getValues from './getValues';
 
-const getComicPage = ({ params, pages }) => {
+const getComicPage = ({params, pages}) => {
 	const {
 		page,
 		chapter,
 	} = getValues(params);
-	const imageUrl = getImageUrl({ chapter, page });
+	const imageUrl = getImageUrl({chapter, page});
 	const index = pages.indexOf(imageUrl);
 
 	const prevPage = getPageLink({pages, index: index - 1});
@@ -32,8 +32,7 @@ const getComicPage = ({ params, pages }) => {
 		lastPage,
 		isFirstPage,
 		isLastPage,
-	}
-	
+	};
 };
 
 export default getComicPage;
