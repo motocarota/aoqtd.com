@@ -14,7 +14,7 @@ const links = [
 const Top = () => (
 	<Group justify='center'>
 		<Link href='/'>
-			<Image src='/aoqtd-logo-sm.webp' height={160} width={220} alt='www.aoqtd.com logo' priority className='interactive'/>
+			<Image src='/aoqtd-logo-sm.webp' height={180} width={240} alt='www.aoqtd.com logo' priority className='interactive'/>
 		</Link>
 		<Button.Group>
 			{links.map(({label, to, href}) => (
