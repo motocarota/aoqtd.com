@@ -2,7 +2,7 @@
 
 # PIANO D'AZIONE:
 
-- pagina work in progress/ci vediamo giovedi' prossimo
+- pagina work in progress/ci vediamo venerdi' prossimo
 - guardare nuclear pasta per capire che cosa aggiungere al sito
 - settare dimensioni dell'immagine
   larghezza sempre 700px
@@ -18,7 +18,7 @@ https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-imag
     vercel free trial? https://vercel.com/pricing
 
 - [ ] commenti
-- [ ] versione inglese
+- [x] versione inglese
 - [ ] aggiustare motocarota.art
       - togliere commissions, about, comics, contacts
       - pagina singola con
