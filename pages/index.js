@@ -6,7 +6,7 @@ import getChapterLink from '@/utils/getChapterLink';
 import extractValues from '@/utils/extractValues';
 import {getAllPages} from '@/api/comics';
 
-export default function Home({chapters}) {
+export default function Home({chapters, locale}) {
 	return (
 		<>
 			<Title m='md'>Benvenuto a bordo!</Title>
@@ -28,7 +28,7 @@ export default function Home({chapters}) {
 						variant='default'
 					>
 						<Image
-							src={`/comic/it/${image}`}
+							src={`/comic/${locale}/${image}`}
 							height={200}
 							width={300}
 							alt='No way!'
@@ -41,18 +41,21 @@ export default function Home({chapters}) {
 	);
 }
 
-export function getStaticProps() {
-	const pages = getAllPages();
+export function getStaticProps({
+	locale,
+}) {
+	const pages = getAllPages({locale});
 	const chapters = pages.filter(f => f.endsWith('000.webp'));
 
-	generateRssFeed(pages);
+	generateRssFeed({posts: pages, locale});
 
 	return {
 		props: {
 			chapters: chapters.map(c => ({
 				image: c,
-				url: getChapterLink({chapter: extractValues(c).chapter, skipCheck: true}),
+				url: getChapterLink({chapter: extractValues(c).chapter, skipCheck: true, locale}),
 			})),
+			locale,
 		},
 	};
 }

@@ -4,7 +4,7 @@ import {Button, ButtonGroup, Group, Space, Title, UnstyledButton} from '@mantine
 import useKeyboardNavigation from '@/hooks/useKeyboardNavigation';
 import {useRouter} from 'next/router';
 
-export default function Comic({comic}) {
+export default function Comic({comic, locale}) {
 	const {
 		imageUrl,
 		page,
@@ -44,7 +44,7 @@ export default function Comic({comic}) {
 				<Image
 					width={700}
 					height={500}
-					src={`/comic/it/${imageUrl}`}
+					src={`/comic/${locale}/${imageUrl}`}
 					alt={`chapter:${chapter} page:${page}`}
 					priority
 				/>
@@ -56,7 +56,7 @@ export default function Comic({comic}) {
 						variant='subtle'
 						disabled={isFirstPage}
 						component={isFirstPage ? null : Link}
-						href={'/it/01/00'}
+						href={`/${locale}/01/00`}
 						leftSection={<Image priority={false} src='/first.png' width={15} height={15} />}
 					>
           Inizio
