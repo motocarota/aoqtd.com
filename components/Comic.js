@@ -4,6 +4,25 @@ import {Button, ButtonGroup, Group, Space, Title, UnstyledButton} from '@mantine
 import useKeyboardNavigation from '@/hooks/useKeyboardNavigation';
 import {useRouter} from 'next/router';
 
+const pageContent = {
+	en: {
+		chapter: 'chapter',
+		page: 'page',
+		first: 'first',
+		last: 'last',
+		prev: 'prev',
+		next: 'next',
+	},
+	it: {
+		chapter: 'capitolo',
+		page: 'pagina',
+		first: 'prima',
+		last: 'ultima',
+		prev: 'pagina',
+		next: 'pagina',
+	},
+};
+
 export default function Comic({comic, locale}) {
 	const {
 		imageUrl,
@@ -18,6 +37,7 @@ export default function Comic({comic, locale}) {
 		isLastPage,
 	} = comic;
 	const router = useRouter();
+	const t = pageContent[locale];
 
 	useKeyboardNavigation({
 		prev() {
@@ -35,7 +55,7 @@ export default function Comic({comic, locale}) {
 	return (
 		<>
 			<Title order={3} my='md'>
-				Capitolo {chapter}, Pagina {page}
+				{t.chapter} {chapter}, {t.page} {page}
 			</Title>
 			<UnstyledButton
 				component={Link}
@@ -59,7 +79,7 @@ export default function Comic({comic, locale}) {
 						href={`/${locale}/01/000`}
 						leftSection={<Image priority={false} src='/first.png' width={15} height={15} />}
 					>
-          Inizio
+						{t.first}
 					</Button>
 
 					<Button
@@ -69,7 +89,7 @@ export default function Comic({comic, locale}) {
 						href={prevChapter}
 						leftSection={<Image priority={false} src='/prev-c.png' width={15} height={15} />}
 					>
-          Capitolo
+						{t.chapter}
 					</Button>
 
 					<Button
@@ -79,7 +99,7 @@ export default function Comic({comic, locale}) {
 						href={prevPage}
 						leftSection={<Image priority={false} src='/prev.png' width={15} height={15} />}
 					>
-            Pagina
+						{t.prev}
 					</Button>
 				</ButtonGroup>
 
@@ -93,7 +113,7 @@ export default function Comic({comic, locale}) {
 						href={nextPage}
 						rightSection={<Image priority={false} src='/next.png' width={15} height={15} />}
 					>
-            Pagina
+						{t.next}
 					</Button>
 
 					<Button
@@ -103,7 +123,7 @@ export default function Comic({comic, locale}) {
 						href={nextChapter}
 						rightSection={<Image priority={false} src='/next-c.png' width={15} height={15} />}
 					>
-            Capitolo
+						{t.chapter}
 					</Button>
 
 					<Button
@@ -113,7 +133,7 @@ export default function Comic({comic, locale}) {
 						href={lastPage}
 						rightSection={<Image priority={false} src='/last.png' width={15} height={15} />}
 					>
-						Ultima
+						{t.last}
 					</Button>
 				</ButtonGroup>
 			</Group>
