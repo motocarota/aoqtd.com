@@ -56,7 +56,7 @@ export default function Comic({comic, locale}) {
 						variant='subtle'
 						disabled={isFirstPage}
 						component={isFirstPage ? null : Link}
-						href={`/${locale}/01/00`}
+						href={`/${locale}/01/000`}
 						leftSection={<Image priority={false} src='/first.png' width={15} height={15} />}
 					>
           Inizio
