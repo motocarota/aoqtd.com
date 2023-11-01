@@ -6,6 +6,10 @@ export default function LocaleSwitcher() {
 	const router = useRouter();
 	const {locales, locale: activeLocale} = router;
 
+	if (locales.length < 2) {
+		return null;
+	}
+
 	return (
 		<ButtonGroup mx='auto'>
 			{locales.map(l => {
