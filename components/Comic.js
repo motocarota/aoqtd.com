@@ -77,7 +77,7 @@ export default function Comic({comic, locale}) {
 						disabled={isFirstPage}
 						component={isFirstPage ? null : Link}
 						href={`/${locale}/01/000`}
-						leftSection={<Image priority={false} src='/first.png' width={15} height={15} />}
+						leftSection={<Image priority={false} src='/first.png' width={15} height={15} alt='nav-first' />}
 					>
 						{t.first}
 					</Button>
@@ -87,7 +87,7 @@ export default function Comic({comic, locale}) {
 						disabled={!prevChapter}
 						component={prevChapter ? Link : null}
 						href={prevChapter}
-						leftSection={<Image priority={false} src='/prev-c.png' width={15} height={15} />}
+						leftSection={<Image priority={false} src='/prev-c.png' width={15} height={15} alt='nav-prev-chapter' />}
 					>
 						{t.chapter}
 					</Button>
@@ -97,7 +97,7 @@ export default function Comic({comic, locale}) {
 						disabled={!prevPage}
 						component={prevPage ? Link : null}
 						href={prevPage}
-						leftSection={<Image priority={false} src='/prev.png' width={15} height={15} />}
+						leftSection={<Image priority={false} src='/prev.png' width={15} height={15} alt='nav-prev' />}
 					>
 						{t.prev}
 					</Button>
@@ -111,7 +111,7 @@ export default function Comic({comic, locale}) {
 						disabled={!nextPage}
 						component={nextPage ? Link : null}
 						href={nextPage}
-						rightSection={<Image priority={false} src='/next.png' width={15} height={15} />}
+						rightSection={<Image priority={false} src='/next.png' width={15} height={15} alt='nav-next' />}
 					>
 						{t.next}
 					</Button>
@@ -121,7 +121,7 @@ export default function Comic({comic, locale}) {
 						disabled={!nextChapter}
 						component={nextChapter ? Link : null}
 						href={nextChapter}
-						rightSection={<Image priority={false} src='/next-c.png' width={15} height={15} />}
+						rightSection={<Image priority={false} src='/next-c.png' width={15} height={15} alt='nav-next-chapter' />}
 					>
 						{t.chapter}
 					</Button>
@@ -131,7 +131,7 @@ export default function Comic({comic, locale}) {
 						disabled={isLastPage}
 						component={isLastPage ? null : Link}
 						href={lastPage}
-						rightSection={<Image priority={false} src='/last.png' width={15} height={15} />}
+						rightSection={<Image priority={false} src='/last.png' width={15} height={15} alt='nav-last' />}
 					>
 						{t.last}
 					</Button>
