@@ -24,7 +24,7 @@ const pageContent = {
 			<>
 				<Title m='md'>Welcome aboard!</Title>
 				<Text>Looking for heroic deeds, romance and epic battles against evil? EW!</Text>
-				<Text>Just skip on the next webcomic, then!<br/> This is the story of the typical hobo-murderer wrecking ball group that feasts on dungeon master's tears!</Text>
+				<Text>Just skip on the next webcomic, then!<br/> This is the story of the typical hobo-murderer wrecking ball group that feasts on dungeon master&apos;s tears!</Text>
 				<Space m='md'/>
 				<Text>Hope you enjoy it!</Text>
 			</>
