@@ -61,9 +61,8 @@ export default function Comic({comic, locale}) {
 				component={Link}
 				href={nextPage}
 			>
-				<Image
-					width={700}
-					height={500}
+				<img
+					style={{ maxWidth: 770 }}
 					src={`/comic/${locale}/${imageUrl}`}
 					alt={`chapter:${chapter} page:${page}`}
 					priority
