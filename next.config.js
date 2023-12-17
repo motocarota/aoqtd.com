@@ -2,11 +2,11 @@
 const nextConfig = {
 	output: 'standalone',
 	reactStrictMode: true,
-	i18n: {
-		locales: ['it'],
-		// Locales: ['it', 'en'],
-		defaultLocale: 'it',
-	},
+	// I18n: {
+	// 	locales: ['it'],
+	// 	// Locales: ['it', 'en'],
+	// 	defaultLocale: 'it',
+	// },
 };
 
 module.exports = nextConfig;
