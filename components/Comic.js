@@ -62,10 +62,9 @@ export default function Comic({comic, locale}) {
 				href={nextPage}
 			>
 				<img
-					style={{ maxWidth: 770 }}
+					style={{maxWidth: 880, width: 880}}
 					src={`/comic/${locale}/${imageUrl}`}
 					alt={`chapter:${chapter} page:${page}`}
-					priority
 				/>
 			</UnstyledButton>
 
