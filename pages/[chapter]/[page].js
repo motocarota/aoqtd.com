@@ -39,7 +39,7 @@ export async function getStaticProps({locale, params}) {
 }
 
 // Returns all the valid pages from the combination chapter + page dynamic paths
-export function getStaticPaths({locales}) {
+export function getStaticPaths({locales = ['it']}) {
 	const paths = locales.reduce(
 		(acc, locale) => {
 			const pages = getAllPages({locale});
