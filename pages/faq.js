@@ -26,10 +26,9 @@ const pageContent = {
 				q: 'Why don\'t you use social networks? having a website is so 2003',
 				a: (
 					<Text>
-						Because social networks <em>suck balls</em>.<br/>
-						They are a shithole engineered from the ground up to monetize and harm people and I think the world is better place without them.<br/>
-						That&apos;s the reason I ditch them and I warmly encourage you to do the same.<br/>
-						(I still have few accounts opened somewhere, but they are all inactive).
+						Because social networks are a shithole engineered from the ground up to monetize and harm people.<br/>
+						I seriously think the world is better place without them.<br/>
+						That&apos;s the reason I avoid them and I warmly encourage everyone else to do the same.<br/>
 					</Text>
 				),
 			},
@@ -37,8 +36,7 @@ const pageContent = {
 				q: 'Why do you publish such an old/ugly/immature story?',
 				a: (
 					<Text>
-						Because I like it.<br/>
-						Another one quest to dust is a story I&apos;m working on from more than 20 years and that I&apos;m now fully focused to develop it until I finish it.
+						This is a story I&apos;m working on from more than 20 years and that I want to finish it.
 					</Text>
 				),
 			},
@@ -47,7 +45,7 @@ const pageContent = {
 				q: 'What is your publish schedule?',
 				a: (
 					<Text>
-						Ideally there will be a new page every thursday. Unless life gets in the way...
+						Ideally there will be a new page every week. Unless life gets in the way...
 					</Text>
 				),
 			},
@@ -91,7 +89,7 @@ const pageContent = {
 						<Image src='/me.jpeg' alt='me' height='365' width='486' />
 						<Text>
 							Sono un multiclasse <Anchor href='https://motocarota.art' target='_blank' rel='noreferrer'>artista</Anchor>/<Anchor href='https://simone-poggi.com' target='_blank' rel='noreferrer'>programmatore</Anchor> caotico malvagio.<br/>
-							Classe &apos;83, sono sposato con due figli, vivo in provincia di Genova, il mio cibo preferito e&apos; la pizza, e direi che arrivati a questo punto non c&apos;e&apos; piu&apos; assolutamente niente altro da dire.
+							Classe &apos;83, sono sposato con due figli, vivo in provincia di Genova, il mio cibo preferito e&apos; la pizza. C'e' altro? direi di no.
 						</Text>
 					</>
 				),
@@ -101,14 +99,14 @@ const pageContent = {
 				a: (<Text>
 						Perche&apos; mi stanno fortemente sulle palle.<br/>
 						Hanno conclamati effetti negativi sulla salute mentale delle persone e credo che il mondo sia un posto migliore senza di loro.<br/>
-						E&apos; per questo che li ho abbandonati e ti invito caldamente a fare altrettanto.
+						Per questo li ho abbandonati e invito le persone a fare altrettanto.
 				</Text>),
 			},
 			{
 				q: 'Perche\' pubblichi roba cosi\' vecchia, brutta e imbarazzante?',
 				a: (
 					<Text>
-						Perche&apos; alla fine a me piace. E&apos; una serie a cui lavoro da piu&apos; di 20 anni e che intendo a portare a termine.<br/>
+						E&apos; una serie a cui lavoro da piu&apos; di 20 anni e che intendo a portare a termine.<br/>
 					</Text>
 				),
 			},
