@@ -1,52 +1,29 @@
+import _map from 'lodash/map';
 import generateRssFeed from '@/utils/generateFeed';
-import {Group, Paper, Space, Text, Title} from '@mantine/core';
+import {Group, Paper, Space} from '@mantine/core';
 import Image from 'next/image';
 import Link from 'next/link';
 import getChapterLink from '@/utils/getChapterLink';
 import extractValues from '@/utils/extractValues';
 import {getAllPages} from '@/api/comics';
+import {I18nContext} from '@/Provider/I18n.provider';
+import {useContext} from 'react';
 
-const pageContent = {
-	it: {
-		intro: (
-			<>
-				<Title m='md'>Benvenuto a bordo!</Title>
-				<Text>Cerchi una storia di antiche leggende, eroiche gesta e nobili eroi senza macchia che salvano il mondo dal male?</Text>
-				<Text>Beh, allora sei capitato nel fumetto sbagliato, dolcezza.</Text>
-				<Space m='md'/>
-				<Text>Questa e&apos; la storia di un manipolo di avventurieri brutti, puzzolenti, cattivi ...e anche un po&apos; stronzi.</Text>
-				<Text>Non dire di non essere stato avvisato...</Text>
-			</>
-		),
-	},
-	en: {
-		intro: (
-			<>
-				<Title m='md'>Welcome aboard!</Title>
-				<Text>Looking for heroic deeds, romance and epic battles against evil? EW!</Text>
-				<Text>Just skip on the next webcomic, then!<br/> This is the story of the typical hobo-murderer wrecking ball group that feasts on dungeon master&apos;s tears!</Text>
-				<Space m='md'/>
-				<Text>Hope you enjoy it!</Text>
-			</>
-		),
-	},
-};
-
-export default function Home({chapters, locale}) {
-	const t = pageContent[locale];
+export default function Home({chapters}) {
+	const {t, locale} = useContext(I18nContext);
 
 	return (
 		<>
-			{t.intro}
+			{t('intro')} {locale}
 			<Space m='md' />
 			<Group justify='center' maw={660} m={'auto'}>
-				{chapters.map(({image, url}, index) => (
+				{_map(chapters, ({image, url}, index) => (
 					<Paper
 						key={index}
 						shadow='sm'
 						padding='xl'
 						component={Link}
-						href={url}
+						href={`${url}`}
 						withBorder
 						variant='default'
 					>
@@ -64,21 +41,17 @@ export default function Home({chapters, locale}) {
 	);
 }
 
-export function getStaticProps({
-	locale,
-}) {
-	const pages = getAllPages({locale});
+export function getStaticProps() {
+	const pages = getAllPages();
 	const chapters = pages.filter(f => f.endsWith('000.webp'));
-
-	generateRssFeed({posts: pages, locale});
+	generateRssFeed({posts: pages});
 
 	return {
 		props: {
 			chapters: chapters.map(c => ({
 				image: c,
-				url: getChapterLink({chapter: extractValues(c).chapter, skipCheck: true, locale}),
+				url: getChapterLink({chapter: extractValues(c).chapter, skipCheck: true}),
 			})),
-			locale,
 		},
 	};
 }

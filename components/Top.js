@@ -19,8 +19,8 @@ const Top = () => (
 		<Button.Group>
 			{links.map(({label, to, href}) => (
 				(to)
-					? <Button key={label} variant='subtle' component={Link} href={to}>{label}</Button>
-					: <Button key={label} variant='subtle' component='a' href={href} target='_blank' rel='noreferrer'>{label}</Button>
+					? <Button key={label} variant='subtle' component={Link} href={`${to}`}>{label}</Button>
+					: <Button key={label} variant='subtle' component='a' href={`${href}`} target='_blank' rel='noreferrer'>{label}</Button>
 			))}
 		</Button.Group>
 	</Group>
