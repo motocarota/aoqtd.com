@@ -4,16 +4,16 @@ import matter from 'gray-matter';
 import {POST_EXTENSION} from '@/app.config';
 import getPostUrl from '@/utils/getPostUrl';
 
-const postsDir = locale => path.join(process.cwd(), `_posts/${locale}/`);
+const postsDir = () => path.join(process.cwd(), '_posts/');
 
-export function getPostIds({locale}) {
-	return fs.readdirSync(postsDir(locale)).filter(f => f.endsWith(POST_EXTENSION));
+export function getPostIds() {
+	return fs.readdirSync(postsDir()).filter(f => f.endsWith(POST_EXTENSION));
 }
 
-export function getPostByParams({params = {}, locale}) {
+export function getPostByParams({params = {}}) {
 	const id = getPostUrl(params);
 	try {
-		const postPath = path.join(postsDir(locale), id);
+		const postPath = path.join(postsDir(), id);
 		const fileContents = fs.readFileSync(postPath, 'utf8');
 		const {data, content} = matter(fileContents);
 
@@ -30,8 +30,8 @@ export function getPostByParams({params = {}, locale}) {
 	}
 }
 
-export function getAllPosts({locale}) {
-	const posts = fs.readdirSync(postsDir(locale)).filter(f => f.endsWith(POST_EXTENSION));
+export function getAllPosts() {
+	const posts = fs.readdirSync(postsDir()).filter(f => f.endsWith(POST_EXTENSION));
 
 	return posts;
 }

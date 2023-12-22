@@ -14,7 +14,7 @@ function getPostName(post) {
 	return `Chapter ${chapter}, Page ${page}`;
 }
 
-export default async function generateRssFeed({posts, locale}) {
+export default async function generateRssFeed({posts}) {
 	const feedOptions = {
 		title: 'Another One Quest To Dust | AOQTD.com',
 		description: 'Another stupid fantasy webcomic! enjoy!',
@@ -30,7 +30,7 @@ export default async function generateRssFeed({posts, locale}) {
 	posts.map(post => feed.item({
 		title: getPostName(post),
 		description: `<img src="${site_url}/comic/it/${post}" alt="${post} />"`,
-		url: getPageLink({pages: [post], index: 0, locale}),
+		url: getPageLink({pages: [post], index: 0}),
 		date: post.date,
 	}));
 

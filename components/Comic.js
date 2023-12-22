@@ -1,31 +1,15 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import {Button, ButtonGroup, Group, Space, Title, UnstyledButton} from '@mantine/core';
 import useKeyboardNavigation from '@/hooks/useKeyboardNavigation';
 import {useRouter} from 'next/router';
+import {useImageUrl} from '@/hooks/useImageUrl';
+import {useContext} from 'react';
+import {I18nContext} from '@/Provider/I18n.provider';
 
-const pageContent = {
-	en: {
-		chapter: 'chapter',
-		page: 'page',
-		first: 'first',
-		last: 'last',
-		prev: 'prev',
-		next: 'next',
-	},
-	it: {
-		chapter: 'capitolo',
-		page: 'pagina',
-		first: 'prima',
-		last: 'ultima',
-		prev: 'pagina',
-		next: 'pagina',
-	},
-};
-
-export default function Comic({comic, locale}) {
+export default function Comic({comic}) {
 	const {
-		imageUrl,
 		page,
 		chapter,
 		prevPage,
@@ -37,7 +21,7 @@ export default function Comic({comic, locale}) {
 		isLastPage,
 	} = comic;
 	const router = useRouter();
-	const t = pageContent[locale];
+	const {t, locale} = useContext(I18nContext);
 
 	useKeyboardNavigation({
 		prev() {
@@ -51,15 +35,20 @@ export default function Comic({comic, locale}) {
 			}
 		},
 	});
+	const imageUrl = useImageUrl({
+		name: 'aoqtd',
+		page,
+		chapter,
+	});
 
 	return (
 		<>
 			<Title order={3} my='md'>
-				{t.chapter} {chapter}, {t.page} {page}
+				{t('chapter')} {chapter}, {t('page')} {page}
 			</Title>
 			<UnstyledButton
 				component={Link}
-				href={nextPage}
+				href={`${nextPage}`}
 			>
 				<img
 					style={{maxWidth: 880, width: 880}}
@@ -74,30 +63,30 @@ export default function Comic({comic, locale}) {
 						variant='subtle'
 						disabled={isFirstPage}
 						component={isFirstPage ? null : Link}
-						href={`/${locale}/01/000`}
+						href={'/01/000'}
 						leftSection={<Image priority={false} src='/first.png' width={15} height={15} alt='nav-first' />}
 					>
-						{t.first}
+						{t('first')}
 					</Button>
 
 					<Button
 						variant='subtle'
 						disabled={!prevChapter}
 						component={prevChapter ? Link : null}
-						href={prevChapter}
+						href={`${prevChapter}`}
 						leftSection={<Image priority={false} src='/prev-c.png' width={15} height={15} alt='nav-prev-chapter' />}
 					>
-						{t.chapter}
+						{t('chapter')}
 					</Button>
 
 					<Button
 						variant='subtle'
 						disabled={!prevPage}
 						component={prevPage ? Link : null}
-						href={prevPage}
+						href={`${prevPage}`}
 						leftSection={<Image priority={false} src='/prev.png' width={15} height={15} alt='nav-prev' />}
 					>
-						{t.prev}
+						{t('prev')}
 					</Button>
 				</ButtonGroup>
 
@@ -108,30 +97,30 @@ export default function Comic({comic, locale}) {
 						variant='subtle'
 						disabled={!nextPage}
 						component={nextPage ? Link : null}
-						href={nextPage}
+						href={`${nextPage}`}
 						rightSection={<Image priority={false} src='/next.png' width={15} height={15} alt='nav-next' />}
 					>
-						{t.next}
+						{t('next')}
 					</Button>
 
 					<Button
 						variant='subtle'
 						disabled={!nextChapter}
 						component={nextChapter ? Link : null}
-						href={nextChapter}
+						href={`${nextChapter}`}
 						rightSection={<Image priority={false} src='/next-c.png' width={15} height={15} alt='nav-next-chapter' />}
 					>
-						{t.chapter}
+						{t('chapter')}
 					</Button>
 
 					<Button
 						variant='subtle'
 						disabled={isLastPage}
 						component={isLastPage ? null : Link}
-						href={lastPage}
+						href={`${lastPage}`}
 						rightSection={<Image priority={false} src='/last.png' width={15} height={15} alt='nav-last' />}
 					>
-						{t.last}
+						{t('last')}
 					</Button>
 				</ButtonGroup>
 			</Group>

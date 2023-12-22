@@ -9,51 +9,40 @@ import Comic from '@/components/Comic';
 export default function Home({
 	comic,
 	md,
-	locale,
 }) {
 	return (
 		<>
-			<Comic comic={comic} locale={locale} />
+			<Comic comic={comic} />
 			<Post md={md} />
 		</>
 	);
 }
 
 // Returns all the static data for the page
-export async function getStaticProps({locale, params}) {
+export async function getStaticProps({params}) {
 	// Read post data
-	const post = getPostByParams({locale, params});
+	const post = getPostByParams({params});
 	const md = await mdToHtml(post.content || '');
 
 	// Read comic page data
-	const pages = getAllPages({locale});
-	const comic = getComicPage({params, pages, locale});
+	const pages = getAllPages();
+	const comic = getComicPage({params, pages});
 
 	return {
 		props: {
 			comic,
 			md,
-			locale,
 		},
 	};
 }
 
 // Returns all the valid pages from the combination chapter + page dynamic paths
-export function getStaticPaths({locales = ['it']}) {
-	const paths = locales.reduce(
-		(acc, locale) => {
-			const pages = getAllPages({locale});
-			return [
-				...acc,
-				...pages.map(
-					fileName => ({
-						params: extractValues(fileName),
-						locale,
-					}),
-				),
-			];
-		},
-		[],
+export function getStaticPaths() {
+	const pages = getAllPages();
+	const paths = pages.map(
+		fileName => ({
+			params: extractValues(fileName),
+		}),
 	);
 
 	return {

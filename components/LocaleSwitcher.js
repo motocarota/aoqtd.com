@@ -1,32 +1,24 @@
+import {I18nContext} from '@/Provider/I18n.provider';
 import {Button, ButtonGroup} from '@mantine/core';
-import Link from 'next/link';
-import {useRouter} from 'next/router';
+import {useContext} from 'react';
 
 export default function LocaleSwitcher() {
-	const router = useRouter();
-	const {locales, locale: activeLocale} = router;
-
+	const {locale, setLocale, locales} = useContext(I18nContext);
 	if (locales.length < 2) {
 		return null;
 	}
 
 	return (
 		<ButtonGroup mx='auto'>
-			{locales.map(l => {
-				const {pathname, query, asPath} = router;
-				return (
-					<Button
-						key={l}
-						component={Link}
-						variant={activeLocale === l ? 'outline' : 'subtle'}
-						href={{pathname, query}}
-						as={asPath}
-						locale={l}
-					>
-						{l}
-					</Button>
-				);
-			})}
+			{locales.map(l => (
+				<Button
+					key={l}
+					variant={locale === l ? 'outline' : 'subtle'}
+					onClick={() => setLocale(l)}
+				>
+					{l}
+				</Button>
+			))}
 		</ButtonGroup>
 	);
 }

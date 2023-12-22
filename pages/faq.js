@@ -1,6 +1,8 @@
+
+import {I18nContext} from '@/Provider/I18n.provider';
 import {Accordion, AccordionControl, AccordionItem, AccordionPanel, Anchor, Text, Title} from '@mantine/core';
 import Image from 'next/image';
-import {useRouter} from 'next/router';
+import {useContext} from 'react';
 
 const pageContent = {
 	en: {
@@ -147,7 +149,7 @@ const pageContent = {
 };
 
 export default function FAQ() {
-	const {locale} = useRouter();
+	const {locale} = useContext(I18nContext);
 	const t = pageContent[locale];
 
 	return (
