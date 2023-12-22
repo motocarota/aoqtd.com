@@ -89,7 +89,7 @@ const pageContent = {
 						<Image src='/me.jpeg' alt='me' height='365' width='486' />
 						<Text>
 							Sono un multiclasse <Anchor href='https://motocarota.art' target='_blank' rel='noreferrer'>artista</Anchor>/<Anchor href='https://simone-poggi.com' target='_blank' rel='noreferrer'>programmatore</Anchor> caotico malvagio.<br/>
-							Classe &apos;83, sono sposato con due figli, vivo in provincia di Genova, il mio cibo preferito e&apos; la pizza. C'e' altro? direi di no.
+							Classe &apos;83, sono sposato con due figli, vivo in provincia di Genova, cibo preferito: la pizza.
 						</Text>
 					</>
 				),
