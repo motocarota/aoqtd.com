@@ -1,8 +1,5 @@
-
-import {I18nContext} from '@/Provider/I18n.provider';
 import {Accordion, AccordionControl, AccordionItem, AccordionPanel, Anchor, Text, Title} from '@mantine/core';
 import Image from 'next/image';
-import {useContext} from 'react';
 
 const pageContent = {
 	en: {
@@ -146,8 +143,8 @@ const pageContent = {
 	},
 };
 
-export default function FAQ() {
-	const {locale} = useContext(I18nContext);
+export default function FAQ({locale}) {
+	// TODO locale comes from params
 	const t = pageContent[locale];
 
 	return (

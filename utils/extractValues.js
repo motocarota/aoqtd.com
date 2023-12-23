@@ -14,9 +14,10 @@ function extractValues(fileName) {
 	const [name] = fileName.split('.');
 	// Reads chapter and name from filename format
 	const [, rest] = name.split('-');
-	const [chapter = '', page = ''] = rest.split('_');
+	const [locale, chapter = '', page = ''] = rest.split('_');
 
 	return getValues({
+		locale,
 		page,
 		chapter,
 	});
