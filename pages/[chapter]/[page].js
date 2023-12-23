@@ -25,7 +25,7 @@ export async function getStaticProps({params}) {
 	const md = await mdToHtml(post.content || '');
 
 	// Read comic page data
-	const pages = getAllPages();
+	const pages = getAllPages(params);
 	const comic = getComicPage({params, pages});
 
 	return {
@@ -38,11 +38,21 @@ export async function getStaticProps({params}) {
 
 // Returns all the valid pages from the combination chapter + page dynamic paths
 export function getStaticPaths() {
-	const pages = getAllPages();
-	const paths = pages.map(
-		fileName => ({
-			params: extractValues(fileName),
-		}),
+	const locales = ['it', 'en'];
+	const paths = locales.reduce(
+		(acc, locale) => {
+			const pages = getAllPages({locale});
+			return [
+				...acc,
+				...pages.map(
+					fileName => ({
+						params: extractValues(fileName),
+						locale,
+					}),
+				),
+			];
+		},
+		[],
 	);
 
 	return {
