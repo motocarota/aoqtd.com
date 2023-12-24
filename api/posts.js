@@ -12,14 +12,10 @@ export function getPostIds({loc}) {
 
 export function getPostByParams({params = {}}) {
 	const id = getPostUrl(params);
-	console.log({id});
 	try {
 		const postPath = path.join(postsDir(params.loc), id);
-		console.log({postPath});
 		const fileContents = fs.readFileSync(postPath, 'utf8');
-		console.log(fileContents);
 		const {data, content} = matter(fileContents);
-		console.log({data, content});
 
 		return {
 			data,
