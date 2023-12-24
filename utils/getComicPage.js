@@ -6,19 +6,19 @@ import getValues from './getValues';
 
 const getComicPage = ({params, pages}) => {
 	const {
+		loc,
 		page,
-		locale,
 		chapter,
 	} = getValues(params);
-	const imageUrl = getImageUrl({chapter, page});
+	const imageUrl = getImageUrl(params);
 	const index = pages.indexOf(imageUrl);
 
-	const prevPage = getPageLink({pages, index: index - 1, locale});
-	const nextPage = getPageLink({pages, index: index + 1, locale});
-	const prevChapter = getChapterLink({pages, chapter: parseInt(chapter, 10) - 1, locale});
-	const nextChapter = getChapterLink({pages, chapter: parseInt(chapter, 10) + 1, locale});
+	const prevPage = getPageLink({pages, index: index - 1, loc});
+	const nextPage = getPageLink({pages, index: index + 1, loc});
+	const prevChapter = getChapterLink({pages, chapter: parseInt(chapter, 10) - 1, loc});
+	const nextChapter = getChapterLink({pages, chapter: parseInt(chapter, 10) + 1, loc});
 	const last = getLastPage({pages});
-	const lastPage = `${locale}/${last.chapter}/${last.page}`;
+	const lastPage = `/${loc}/${last.chapter}/${last.page}`;
 	const isFirstPage = page === '000' && chapter === '01';
 	const isLastPage = page === last.page && chapter === last.chapter;
 
@@ -26,7 +26,7 @@ const getComicPage = ({params, pages}) => {
 		imageUrl,
 		page,
 		chapter,
-		locale,
+		loc,
 		prevPage,
 		nextPage,
 		prevChapter,

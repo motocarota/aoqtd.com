@@ -1,6 +1,6 @@
 
 // Expected name format:
-// {something}-{chapter}_{page}.{extension}
+// {something}-{locale}-{chapter}-{page}.{extension}
 
 import getValues from './getValues';
 
@@ -13,11 +13,10 @@ function extractValues(fileName) {
 	// Remove extension
 	const [name] = fileName.split('.');
 	// Reads chapter and name from filename format
-	const [, rest] = name.split('-');
-	const [locale, chapter = '', page = ''] = rest.split('_');
+	const [, loc, chapter = '', page = ''] = name.split('-');
 
 	return getValues({
-		locale,
+		loc,
 		page,
 		chapter,
 	});

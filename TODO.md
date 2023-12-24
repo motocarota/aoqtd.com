@@ -1,8 +1,10 @@
 ### TODO AOQTD SITE
 
+- capire come implementare i links dell'header
+
 # PIANO D'AZIONE:
 
-- pagina work in progress/ci vediamo venerdi' prossimo
+- pagina work in progress/ci vediamo la sett prossima con una nuova pagina
 - guardare nuclear pasta per capire che cosa aggiungere al sito
 - settare dimensioni dell'immagine
   larghezza sempre 700px
@@ -19,7 +21,6 @@ https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-imag
 
 - [ ] commenti
 - [x] versione inglese
-- [ ] aggiustare motocarota.art
 - [ ] post per ogni pagina
 - [ ] 4 pagine di cuscinetto
 ------
