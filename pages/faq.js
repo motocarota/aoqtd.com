@@ -1,5 +1,7 @@
-import {Accordion, AccordionControl, AccordionItem, AccordionPanel, Anchor, Text, Title} from '@mantine/core';
+import LocaleSwitcher from '@/components/LocaleSwitcher';
+import {Accordion, AccordionControl, AccordionItem, AccordionPanel, Anchor, Stack, Text, Title} from '@mantine/core';
 import Image from 'next/image';
+import {useState} from 'react';
 
 const pageContent = {
 	en: {
@@ -144,11 +146,12 @@ const pageContent = {
 };
 
 export default function FAQ() {
-	// TODO loc comes from params
-	const t = pageContent.en;
+	const [loc, setLoc] = useState('en');
+	const t = pageContent[loc];
 
 	return (
-		<>
+		<Stack>
+			<LocaleSwitcher locale={loc} setLocale={setLoc} />
 			<Title>
 				{t.title}
 			</Title>
@@ -167,6 +170,6 @@ export default function FAQ() {
 					</AccordionItem>
 				))}
 			</Accordion>
-		</>
+		</Stack>
 	);
 }

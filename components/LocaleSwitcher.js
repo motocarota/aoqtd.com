@@ -1,23 +1,21 @@
+import _toUpper from 'lodash/toUpper';
 import {Button, ButtonGroup} from '@mantine/core';
 import {LOCALES} from '@/app.config';
 
-export default function LocaleSwitcher() {
+export default function LocaleSwitcher({locale, setLocale}) {
 	if (LOCALES.length < 2) {
 		return null;
 	}
 
-	const setLocale = l => {
-		console.log('TODO should navigate to another path', l);
-	};
-
 	return (
-		<ButtonGroup mx='auto'>
+		<ButtonGroup mx='auto' my='md'>
 			{LOCALES.map(l => (
 				<Button
 					key={l}
 					onClick={() => setLocale(l)}
+					variant={locale === l ? 'outline' : 'subtle'}
 				>
-					{l}
+					{_toUpper(l)}
 				</Button>
 			))}
 		</ButtonGroup>
