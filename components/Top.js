@@ -3,15 +3,14 @@ import Link from 'next/link';
 import {Button, Group} from '@mantine/core';
 
 const links = [
-	{to: '/01/000', label: 'Comic'},
+	{to: '/en/01/000', label: 'English'},
+	{to: '/it/01/000', label: 'Italiano'},
 	// {to: '/strip', label: 'Strips'},
 	{to: '/monsters', label: 'Monsters'},
 	{href: 'https://motocarota.art', label: 'Author'},
 	{href: 'https://www.patreon.com/motocarota', label: 'Patreon'},
 	{to: '/faq', label: 'FAQ'},
 ];
-
-// TODO i link devono essere funzione di param.loc
 
 const Top = () => (
 	<Group justify='center'>

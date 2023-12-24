@@ -1,5 +1,7 @@
 ### TODO AOQTD SITE
 
+- next /prev chapter btn sempre disabled
+
 - capire come implementare i links dell'header
 
 # PIANO D'AZIONE:
