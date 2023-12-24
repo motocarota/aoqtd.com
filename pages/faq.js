@@ -67,7 +67,7 @@ const pageContent = {
 				),
 			},
 			{
-				q: 'My little nephew can draw much better than you!',
+				q: 'My little nephew can draw way better than you!',
 				a: (
 					<Text>
 						This is not a question and your nephew is dead meat already.
