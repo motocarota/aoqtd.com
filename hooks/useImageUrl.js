@@ -5,15 +5,15 @@ export function useImageUrl({
 	name,
 	page,
 	chapter,
-	locale,
+	loc,
 }) {
 	const url = useMemo(
-		() => `${name}-${locale}-${_padStart(chapter, 2, 0)}-${_padStart(page, 3, 0)}.webp`,
+		() => `${name}-${loc}-${_padStart(chapter, 2, 0)}-${_padStart(page, 3, 0)}.webp`,
 		[
 			name,
 			page,
 			chapter,
-			locale,
+			loc,
 		],
 	);
 	return url;

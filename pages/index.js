@@ -32,8 +32,8 @@ const pageContent = {
 	},
 };
 
-export default function Home({chapters, locale}) {
-	const t = pageContent[locale];
+export default function Home({chapters, loc}) {
+	const t = pageContent[loc];
 
 	return (
 		<>
@@ -51,7 +51,7 @@ export default function Home({chapters, locale}) {
 						variant='default'
 					>
 						<Image
-							src={`/comic/${locale}/${image}`}
+							src={`/comic/${loc}/${image}`}
 							height={200}
 							width={300}
 							alt='No way!'
@@ -65,21 +65,25 @@ export default function Home({chapters, locale}) {
 }
 
 export function getStaticProps({
-	params,
+	params = {},
 }) {
-	const {locale} = params;
-	const pages = getAllPages({locale});
+	const {loc = 'en'} = params;
+	const pages = getAllPages({loc});
 	const chapters = pages.filter(f => f.endsWith('000.webp'));
 
-	generateRssFeed({posts: pages, locale});
+	generateRssFeed({posts: pages, loc});
 
 	return {
 		props: {
 			chapters: chapters.map(c => ({
 				image: c,
-				url: getChapterLink({chapter: extractValues(c).chapter, skipCheck: true, locale}),
+				url: getChapterLink({
+					chapter: extractValues(c).chapter,
+					skipCheck: true,
+					loc,
+				}),
 			})),
-			locale,
+			loc,
 		},
 	};
 }

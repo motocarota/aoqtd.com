@@ -1,19 +1,20 @@
-import {I18nContext} from '@/Provider/I18n.provider';
 import {Button, ButtonGroup} from '@mantine/core';
-import {useContext} from 'react';
+import {LOCALES} from '@/app.config';
 
 export default function LocaleSwitcher() {
-	const {locale, setLocale, locales} = useContext(I18nContext);
-	if (locales.length < 2) {
+	if (LOCALES.length < 2) {
 		return null;
 	}
 
+	const setLocale = l => {
+		console.log('TODO should navigate to another path', l);
+	};
+
 	return (
 		<ButtonGroup mx='auto'>
-			{locales.map(l => (
+			{LOCALES.map(l => (
 				<Button
 					key={l}
-					variant={locale === l ? 'outline' : 'subtle'}
 					onClick={() => setLocale(l)}
 				>
 					{l}

@@ -11,6 +11,8 @@ const links = [
 	{to: '/faq', label: 'FAQ'},
 ];
 
+// TODO i link devono essere funzione di param.loc
+
 const Top = () => (
 	<Group justify='center'>
 		<Link href='/'>

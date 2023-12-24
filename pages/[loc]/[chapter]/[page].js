@@ -40,14 +40,13 @@ export async function getStaticProps({params}) {
 export function getStaticPaths() {
 	const locales = ['it', 'en'];
 	const paths = locales.reduce(
-		(acc, locale) => {
-			const pages = getAllPages({locale});
+		(acc, loc) => {
+			const pages = getAllPages({loc});
 			return [
 				...acc,
 				...pages.map(
 					fileName => ({
 						params: extractValues(fileName),
-						locale,
 					}),
 				),
 			];

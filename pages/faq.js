@@ -143,9 +143,9 @@ const pageContent = {
 	},
 };
 
-export default function FAQ({locale}) {
-	// TODO locale comes from params
-	const t = pageContent[locale];
+export default function FAQ({loc}) {
+	// TODO loc comes from params
+	const t = pageContent[loc];
 
 	return (
 		<>

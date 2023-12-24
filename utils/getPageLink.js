@@ -1,13 +1,13 @@
 import extractValues from './extractValues';
 
-function getPageLink({pages, index, locale}) {
+function getPageLink({pages, index, loc}) {
 	if (!pages[index]) {
 		return '';
 	}
 
 	const p = extractValues(pages[index]);
 
-	return `/${locale}/${p?.chapter}/${p?.page}`;
+	return `/${loc}/${p?.chapter}/${p?.page}`;
 }
 
 export default getPageLink;

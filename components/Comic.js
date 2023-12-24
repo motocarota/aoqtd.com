@@ -7,7 +7,7 @@ import {useRouter} from 'next/router';
 export default function Comic({comic}) {
 	const {
 		imageUrl,
-		locale,
+		loc,
 		page,
 		chapter,
 		prevPage,
@@ -44,7 +44,7 @@ export default function Comic({comic}) {
 			>
 				<img
 					style={{maxWidth: 880, width: 880}}
-					src={`/comic/${locale}/${imageUrl}`}
+					src={`/comic/${loc}/${imageUrl}`}
 					alt={`chapter:${chapter} page:${page}`}
 				/>
 			</UnstyledButton>
@@ -55,10 +55,9 @@ export default function Comic({comic}) {
 						variant='subtle'
 						disabled={isFirstPage}
 						component={isFirstPage ? null : Link}
-						href={`/${locale}/01/000`}
-						leftSection={<Image priority={false} src='/first.png' width={15} height={15} alt='nav-first' />}
+						href={`/${loc}/01/000`}
 					>
-						|&lt;
+						<Image priority={false} src='/first.png' width={15} height={15} alt='nav-first' />
 					</Button>
 
 					<Button
@@ -66,9 +65,8 @@ export default function Comic({comic}) {
 						disabled={!prevChapter}
 						component={prevChapter ? Link : null}
 						href={prevChapter}
-						leftSection={<Image priority={false} src='/prev-c.png' width={15} height={15} alt='nav-prev-chapter' />}
 					>
-						&lt; &lt;
+						<Image priority={false} src='/prev-c.png' width={15} height={15} alt='nav-prev-chapter' />
 					</Button>
 
 					<Button
@@ -76,9 +74,8 @@ export default function Comic({comic}) {
 						disabled={!prevPage}
 						component={prevPage ? Link : null}
 						href={prevPage}
-						leftSection={<Image priority={false} src='/prev.png' width={15} height={15} alt='nav-prev' />}
 					>
-						&lt;
+						<Image priority={false} src='/prev.png' width={15} height={15} alt='nav-prev' />
 					</Button>
 				</ButtonGroup>
 
@@ -90,9 +87,8 @@ export default function Comic({comic}) {
 						disabled={!nextPage}
 						component={nextPage ? Link : null}
 						href={nextPage}
-						rightSection={<Image priority={false} src='/next.png' width={15} height={15} alt='nav-next' />}
 					>
-						&gt;
+						<Image priority={false} src='/next.png' width={15} height={15} alt='nav-next' />
 					</Button>
 
 					<Button
@@ -100,9 +96,8 @@ export default function Comic({comic}) {
 						disabled={!nextChapter}
 						component={nextChapter ? Link : null}
 						href={nextChapter}
-						rightSection={<Image priority={false} src='/next-c.png' width={15} height={15} alt='nav-next-chapter' />}
 					>
-						&gt; &gt;
+						<Image priority={false} src='/next-c.png' width={15} height={15} alt='nav-next-chapter' />
 					</Button>
 
 					<Button
@@ -110,9 +105,8 @@ export default function Comic({comic}) {
 						disabled={isLastPage}
 						component={isLastPage ? null : Link}
 						href={lastPage}
-						rightSection={<Image priority={false} src='/last.png' width={15} height={15} alt='nav-last' />}
 					>
-						&gt; |
+						<Image priority={false} src='/last.png' width={15} height={15} alt='nav-last' />
 					</Button>
 				</ButtonGroup>
 			</Group>
