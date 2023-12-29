@@ -26,6 +26,15 @@ export default function Home({
 			script.setAttribute('async', true);
 
 			document.body.appendChild(script);
+
+			return () => {
+				try {
+					const els = document.getElementsByClassName('utterances');
+					Array.from(els).map(el => document.body.removeChild(el));
+				} catch (err) {
+					console.err(err);
+				}
+			};
 		},
 		[page, chapter, loc],
 	);
