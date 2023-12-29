@@ -1,6 +1,7 @@
 import path from 'path';
 import fs from 'fs';
 import Grid from '@/components/Grid';
+import {LOCALES} from '@/app.config';
 
 export default function Monsters({pages}) {
 	return (
@@ -16,5 +17,12 @@ export function getStaticProps() {
 		props: {
 			pages: filenames,
 		},
+	};
+}
+
+export function getStaticPaths() {
+	return {
+		paths: LOCALES.map(l => `/${l}/monsters`),
+		fallback: false,
 	};
 }

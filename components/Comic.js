@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {Button, ButtonGroup, Group, Space, Stack, Title, UnstyledButton} from '@mantine/core';
+import {Button, ButtonGroup, Group, Space, Title, UnstyledButton} from '@mantine/core';
 import useKeyboardNavigation from '@/hooks/useKeyboardNavigation';
 import {useRouter} from 'next/router';
-import LocaleSwitcher from './LocaleSwitcher';
 
 export default function Comic({comic}) {
 	const {
@@ -33,11 +32,6 @@ export default function Comic({comic}) {
 			}
 		},
 	});
-	const setLocale = l => {
-		const current = router.asPath;
-		const next = current.slice(4);
-		router.push(`/${l}/${next}`);
-	};
 
 	return (
 		<>
@@ -116,10 +110,6 @@ export default function Comic({comic}) {
 					</Button>
 				</ButtonGroup>
 			</Group>
-			<Stack mx='auto'>
-				<LocaleSwitcher locale={loc} setLocale={setLocale}/>
-			</Stack>
-
 		</>
 	);
 }
