@@ -28,7 +28,11 @@ export default function Home({
 			document.body.appendChild(script);
 
 			return () => {
-				document.body.removeChild(script);
+				try {
+					document.body.removeChild(script);
+				} catch (err) {
+					console.err(err);
+				}
 			};
 		},
 		[page, chapter, loc],
