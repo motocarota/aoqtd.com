@@ -22,7 +22,7 @@ export function getStaticProps() {
 
 export function getStaticPaths() {
 	return {
-		paths: LOCALES.map(l => `/${l}/monsters`),
+		paths: LOCALES.map(l => `/${l}/strip`),
 		fallback: false,
 	};
 }
