@@ -1,9 +1,7 @@
-import LocaleSwitcher from '@/components/LocaleSwitcher';
-import {Accordion, AccordionControl, AccordionItem, AccordionPanel, Anchor, Stack, Text, Title} from '@mantine/core';
+import {Anchor, Text} from '@mantine/core';
 import Image from 'next/image';
-import {useState} from 'react';
 
-const pageContent = {
+export const pageContent = {
 	en: {
 		title: 'Frequently Asked Questions',
 		subtitle: '(from my own mind)',
@@ -144,32 +142,3 @@ const pageContent = {
 		],
 	},
 };
-
-export default function FAQ() {
-	const [loc, setLoc] = useState('en');
-	const t = pageContent[loc];
-
-	return (
-		<Stack>
-			<LocaleSwitcher locale={loc} setLocale={setLoc} />
-			<Title>
-				{t.title}
-			</Title>
-			<Title order={5} mb='lg'>{t.subtitle}</Title>
-			<Accordion maw='900' m='auto' variant='contained'>
-				{t.faq.map((f, index) => (
-					<AccordionItem value={`${index}`} key={index}>
-						<AccordionControl>
-							<Title order={4}>
-								{f.q}
-							</Title>
-						</AccordionControl>
-						<AccordionPanel>
-							{f.a}
-						</AccordionPanel>
-					</AccordionItem>
-				))}
-			</Accordion>
-		</Stack>
-	);
-}

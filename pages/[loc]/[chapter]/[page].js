@@ -6,6 +6,7 @@ import {getAllPages} from '@/api/comics';
 import Post from '@/components/Post';
 import Comic from '@/components/Comic';
 import {useEffect} from 'react';
+import {LOCALES} from '@/app.config';
 
 export default function Home({
 	comic,
@@ -66,8 +67,7 @@ export async function getStaticProps({params}) {
 
 // Returns all the valid pages from the combination chapter + page dynamic paths
 export function getStaticPaths() {
-	const locales = ['it', 'en'];
-	const paths = locales.reduce(
+	const paths = LOCALES.reduce(
 		(acc, loc) => {
 			const pages = getAllPages({loc});
 			return [
