@@ -18,7 +18,6 @@ export default function Home({
 		() => {
 			const script = document.createElement('script');
 			script.src = 'https://utteranc.es/client.js';
-			script.setAttribute('id', 'comments');
 			script.setAttribute('repo', 'motocarota/aoqtd.com');
 			script.setAttribute('issue-term', 'pathname');
 			script.setAttribute('label', 'comment');
@@ -27,17 +26,6 @@ export default function Home({
 			script.setAttribute('async', true);
 
 			document.body.appendChild(script);
-
-			return () => {
-				try {
-					const el = document.getElementById('comments');
-					if (el) {
-						document.body.removeChild(el);
-					}
-				} catch (err) {
-					console.err(err);
-				}
-			};
 		},
 		[page, chapter, loc],
 	);
