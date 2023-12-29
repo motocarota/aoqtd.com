@@ -5,23 +5,38 @@ import {getPostByParams} from '@/api/posts';
 import {getAllPages} from '@/api/comics';
 import Post from '@/components/Post';
 import Comic from '@/components/Comic';
+import {useEffect} from 'react';
 
 export default function Home({
 	comic,
 	md,
 }) {
+	const {
+		page, chapter, loc,
+	} = comic;
+	useEffect(
+		() => {
+			const script = document.createElement('script');
+			script.src = 'https://utteranc.es/client.js';
+			script.repo = 'motocarota/aoqtd.com';
+			script['issue-term'] = 'pathname';
+			script.label = 'comment';
+			script.theme = 'github-light';
+			script.crossorigin = 'anonymous';
+			script.async = true;
+
+			document.body.appendChild(script);
+
+			return () => {
+				document.body.removeChild(script);
+			};
+		},
+		[page, chapter, loc],
+	);
 	return (
 		<>
 			<Comic comic={comic} />
 			<Post md={md} />
-			<script src="https://utteranc.es/client.js"
-				repo="motocarota/aoqtd.com"
-				issue-term="pathname"
-				label="comment"
-				theme="github-light"
-				crossorigin="anonymous"
-				async>
-			</script>
 		</>
 	);
 }
