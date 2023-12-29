@@ -8,7 +8,7 @@ const Home = () => {
 	useEffect(() => {
 		push('/en');
 	}, []);
-	return <p></p>;
+	return <p>loading...</p>;
 };
 
 export default Home;
