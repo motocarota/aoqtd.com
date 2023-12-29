@@ -18,12 +18,12 @@ export default function Home({
 		() => {
 			const script = document.createElement('script');
 			script.src = 'https://utteranc.es/client.js';
-			script.repo = 'motocarota/aoqtd.com';
-			script['issue-term'] = 'pathname';
-			script.label = 'comment';
-			script.theme = 'github-light';
-			script.crossorigin = 'anonymous';
-			script.async = true;
+			script.setAttribute('repo', 'motocarota/aoqtd.com');
+			script.setAttribute('issue-term', 'pathname');
+			script.setAttribute('label', 'comment');
+			script.setAttribute('theme', 'github-light');
+			script.setAttribute('crossorigin', 'anonymous');
+			script.setAttribute('async', true);
 
 			document.body.appendChild(script);
 
