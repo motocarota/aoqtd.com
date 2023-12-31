@@ -1,0 +1,1 @@
+tipico... una volta che le schede sono pronte, e' ora di staccare
