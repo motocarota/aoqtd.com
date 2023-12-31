@@ -1,7 +1,11 @@
 *NOME:* Superdrow II
+
 *CLASSE:* mage
+
 *LIVELLO:* 1
+
 *RAZZA:* drow
+
 *ALLINEAMENTO:* Caotico Neutrale
 
 *FOR:* 8
@@ -12,4 +16,5 @@
 *CAR:* 10
 
 *ARMI:* stocco, fionda
+
 *SEGNI PARTICOLARI:* megalomane
