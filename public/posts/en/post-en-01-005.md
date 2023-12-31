@@ -1,0 +1,1 @@
+If you snob kobolds as target of your mission, just keep in mind those adventurer who started their epic careers with rats and such
