@@ -7,7 +7,7 @@ const Home = () => {
 
 	useEffect(() => {
 		push('/en');
-	}, []);
+	});
 	return <p>loading...</p>;
 };
 

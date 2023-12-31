@@ -1,18 +1,14 @@
 ### TODO AOQTD SITE
 
-- next /prev chapter btn sempre disabled
-
-- capire come implementare i links dell'header
+- rimpiazzare i commenti attuali con qualcosa di meglio
+  - login with email/google/fb/...
+  - 
 
 # PIANO D'AZIONE:
 
 - pagina work in progress/ci vediamo la sett prossima con una nuova pagina
 - guardare nuclear pasta per capire che cosa aggiungere al sito
-- settare dimensioni dell'immagine
-  larghezza sempre 700px
-  leggere l'altezza e settarla in modo da non dover avere un formato statico
 
-https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-image-in-node-js
 
 - commenti usando upstash free tier
     https://vercel.com/templates/next.js/blog-with-comments
@@ -21,8 +17,7 @@ https://stackoverflow.com/questions/12539918/get-the-width-and-height-of-an-imag
 
     vercel free trial? https://vercel.com/pricing
 
-- [ ] commenti
-- [x] versione inglese
+- [x] commenti
 - [ ] post per ogni pagina
 - [ ] 4 pagine di cuscinetto
 ------
@@ -37,11 +32,10 @@ CONTENUTI
 
   - controllare il bbeg che abbia tutto a posto
   - ricontrollare tutti i testi
-    CAP 3
-      11 add fuoco fumo della palla di fuoco
-    CAP 5
-      4 txt
-      5 txt
+    it/01/003 "inziamo"
+    */03/011 add fuoco fumo della palla di fuoco
+    it/04/* txt
+    it/05/* txt
 
 CONTENUTI EXTRA
   - character page?

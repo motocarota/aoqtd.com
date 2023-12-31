@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import Link from 'next/link';
 import {Button, ButtonGroup, Group, Space, Title, UnstyledButton} from '@mantine/core';
