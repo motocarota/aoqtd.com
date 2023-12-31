@@ -1,6 +1,6 @@
 *NOME:* Superdrow II
 
-*CLASSE:* mage
+*CLASSE:* mago
 
 *LIVELLO:* 1
 
