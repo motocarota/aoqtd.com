@@ -1,0 +1,1 @@
+Tutto e' piu' semplice nella vita se ignori le questioni difficili!

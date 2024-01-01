@@ -1,0 +1,3 @@
+- "this place is your immagination"
+- "but it's all empty, sterile and cold!!"
+- "...and that's the reason you suck so hard!"

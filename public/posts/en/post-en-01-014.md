@@ -1,0 +1,1 @@
+When the billboard says "free gold" there's almost always a trap!
