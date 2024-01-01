@@ -1,10 +1,10 @@
 *NOME:* Superdrow II
 
-*CLASSE:* mago
+*CLASSE:* Mago
 
 *LIVELLO:* 1
 
-*RAZZA:* drow
+*RAZZA:* Elfo Oscuro (Drow)
 
 *ALLINEAMENTO:* Caotico Neutrale
 
@@ -15,6 +15,6 @@
 *SAG:* 12
 *CAR:* 10
 
-*ARMI:* stocco, fionda
+*ARMI:* Stocco, Fionda
 
-*SEGNI PARTICOLARI:* megalomane
+*SEGNI PARTICOLARI:* Iperattivo, Megalomane
