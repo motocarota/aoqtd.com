@@ -1,10 +1,10 @@
 *NAME:* Superdrow II
 
-*CLASS:* mage
+*CLASS:* Wizard
 
 *LEVEL:* 1
 
-*RACE:* drow
+*RACE:* Dark Elf (Drow)
 
 *ALIGNMENT:* Chaotic Neutral
 
@@ -15,6 +15,6 @@
 *WIS:* 12
 *CHA:* 10
 
-*WEAPONS:* rapier, sling
+*WEAPONS:* Rapier, Sling
 
-*DISTINCTIVE SIGN:* megalomaniac
+*DISTINCTIVE SIGN:* Hyperactive, Megalomaniac

@@ -1,0 +1,1 @@
+Attenzione a non sottovalutare il rischio di morte per fame e disidratazione per personaggi di basso livello senza supervisione
