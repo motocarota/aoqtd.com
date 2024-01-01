@@ -10,6 +10,7 @@ export default function Post({md}) {
 			background: '#fafafa',
 			padding: '1rem',
 			borderRadius: '1rem',
+			listStylePosition: 'inside',
 		}}>
 			<div dangerouslySetInnerHTML={{__html: md}} />
 		</Box>
