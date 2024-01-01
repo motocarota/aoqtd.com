@@ -6,10 +6,9 @@ export default function Post({md}) {
 	}
 
 	return (
-		<Box maw='700' m='auto' style={{
+		<Box maw='700' mx='auto' my='md' style={{
 			background: '#fafafa',
 			padding: '1rem',
-			margin: '1rem',
 			borderRadius: '1rem',
 		}}>
 			<div dangerouslySetInnerHTML={{__html: md}} />
