@@ -1,0 +1,1 @@
+Quando le quest diventano troppo facili per la zona e' il momento di sterminare tutto l'accampamento e passare alla prossima zona
