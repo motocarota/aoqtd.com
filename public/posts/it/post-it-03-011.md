@@ -1,0 +1,1 @@
+Il mio sogno e' un MMORPG dove gli attacchi ad area colpiscano alleati e nemici indistintamente
