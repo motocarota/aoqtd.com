@@ -1,0 +1,1 @@
+Se non sei stregone, paladino o bardo il Carisma è quella caratteristica a cui si assegna il valore più basso.
