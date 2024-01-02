@@ -1,0 +1,1 @@
+Un minuto di raccoglimento per le sentinelle orchesche cadute durante il loro turno di lavoro

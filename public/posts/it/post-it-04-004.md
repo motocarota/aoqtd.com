@@ -1,0 +1,7 @@
+POW
+
+BANG
+
+BIFF
+
+SDENG
