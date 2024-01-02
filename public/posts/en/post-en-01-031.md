@@ -1,0 +1,6 @@
+- eye poke!
+- shocking grasp!!
+- shocking poke!!!
+- eye grasp!!!!
+- shocking eye!!!!!
+- eye-poking-shock... --ok enough, it's not funny anymore
