@@ -1,0 +1,1 @@
+Questo e' il motivo per cui i master non dovrebbero mai premiare le uccisioni dei mostri con i punti esperienza.
