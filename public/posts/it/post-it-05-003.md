@@ -1,0 +1,1 @@
+Non avrai altro dio all'infuori di quello che ti da i domini migliori.
