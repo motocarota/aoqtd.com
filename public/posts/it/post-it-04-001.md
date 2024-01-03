@@ -1,1 +1,1 @@
-Quando le quest diventano troppo facili per la zona e' il momento di sterminare tutto l'accampamento e passare alla prossima zona
+Quando le quest diventano troppo facili per la zona e' il momento di sterminare tutto il villaggio dei quest giver e passare alla prossima zona
