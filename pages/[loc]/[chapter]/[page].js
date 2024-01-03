@@ -1,3 +1,5 @@
+'use-client';
+
 import extractValues from '@/utils/extractValues';
 import getComicPage from '@/utils/getComicPage';
 import mdToHtml from '@/utils/mdToHtml';
@@ -5,8 +7,9 @@ import {getPostByParams} from '@/api/posts';
 import {getAllPages} from '@/api/comics';
 import Post from '@/components/Post';
 import Comic from '@/components/Comic';
-import {useEffect} from 'react';
 import {LOCALES} from '@/app.config';
+import {ReactCusdis} from 'react-cusdis';
+import {Box} from '@mantine/core';
 
 export default function Home({
 	comic,
@@ -15,34 +18,21 @@ export default function Home({
 	const {
 		page, chapter, loc,
 	} = comic;
-	useEffect(
-		() => {
-			const script = document.createElement('script');
-			script.src = 'https://utteranc.es/client.js';
-			script.setAttribute('repo', 'motocarota/aoqtd.com');
-			script.setAttribute('issue-term', 'pathname');
-			script.setAttribute('label', 'comment');
-			script.setAttribute('theme', 'github-light');
-			script.setAttribute('crossorigin', 'anonymous');
-			script.setAttribute('async', true);
-
-			document.body.appendChild(script);
-
-			return () => {
-				try {
-					const els = document.getElementsByClassName('utterances');
-					Array.from(els).map(el => document.body.removeChild(el));
-				} catch (err) {
-					console.err(err);
-				}
-			};
-		},
-		[page, chapter, loc],
-	);
 	return (
 		<>
 			<Comic comic={comic} />
 			<Post md={md} />
+			<Box maw={900} mx='auto' p='md' bg='#fafafa' style={{borderRadius: 10}}>
+				<ReactCusdis
+					attrs={{
+						host: 'https://cusdis.com',
+						appId: '62bda7f9-1080-4ecc-b5e7-cb8c9b9fb4b0',
+						pageId: `${loc}/${chapter}/${page}`,
+						pageTitle: `${loc}/${chapter}/${page}`,
+						pageUrl: `${loc}/${chapter}/${page}`,
+					}}
+				/>
+			</Box>
 		</>
 	);
 }
