@@ -1,7 +1,12 @@
-import _toUpper from 'lodash/toUpper';
-import {Button} from '@mantine/core';
+import {Menu, UnstyledButton} from '@mantine/core';
 import {LOCALES} from '@/app.config';
 import {useRouter} from 'next/router';
+import Image from 'next/image';
+
+const LANGMAP = {
+	it: 'Italiano',
+	en: 'English',
+};
 
 export default function LocaleSwitcher() {
 	const router = useRouter();
@@ -10,26 +15,33 @@ export default function LocaleSwitcher() {
 		return null;
 	}
 
-	const current = router.asPath;
+	const path = router.asPath;
 
 	const setLocale = l => {
-		const rest = current.slice(4);
+		const rest = path.slice(4);
 		router.push(`/${l}/${rest}`);
 	};
 
-	const isCurrent = lang => current.slice(1, 3) === lang;
+	const current = path.slice(1, 3);
 
 	return (
-		<>
-			{LOCALES.map(l => (
-				<Button
-					key={l}
-					onClick={() => setLocale(l)}
-					variant={isCurrent(l) ? 'primary' : 'subtle'}
-				>
-					{_toUpper(l)}
-				</Button>
-			))}
-		</>
+		<UnstyledButton>
+			<Menu shadow='md' width={200} trigger='hover' openDelay={100} closeDelay={400}>
+				<Menu.Target>
+					<Image src={`/${current}.webp`} alt={current} width={30} height={20}/>
+				</Menu.Target>
+
+				<Menu.Dropdown>
+					{LOCALES.map(l => (
+						<Menu.Item
+							key={l}
+							onClick={() => setLocale(l)}
+							rightSection={<Image src={`/${l}.webp`} alt={l} width={30} height={20}/>}>
+							{LANGMAP[l] ?? l}
+						</Menu.Item>
+					))}
+				</Menu.Dropdown>
+			</Menu>
+		</UnstyledButton>
 	);
 }
