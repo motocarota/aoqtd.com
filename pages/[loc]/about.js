@@ -2,7 +2,7 @@ import {Accordion, AccordionControl, AccordionItem, AccordionPanel, Stack, Title
 import {LOCALES} from '@/app.config';
 import {pageContent} from '@/i18n/faq.content';
 
-export default function FAQ({loc}) {
+export default function About({loc}) {
 	const t = pageContent[loc];
 
 	return (
