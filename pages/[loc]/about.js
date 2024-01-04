@@ -1,6 +1,6 @@
 import {Accordion, AccordionControl, AccordionItem, AccordionPanel, Stack, Title} from '@mantine/core';
 import {LOCALES} from '@/app.config';
-import {pageContent} from '@/i18n/faq.content';
+import {pageContent} from '@/i18n/about.content';
 
 export default function About({loc}) {
 	const t = pageContent[loc];
@@ -38,7 +38,7 @@ export async function getStaticProps({params}) {
 
 export function getStaticPaths() {
 	return {
-		paths: LOCALES.map(l => `/${l}/faq`),
+		paths: LOCALES.map(l => `/${l}/about`),
 		fallback: false,
 	};
 }
