@@ -1,5 +1,3 @@
-'use-client';
-
 import extractValues from '@/utils/extractValues';
 import getComicPage from '@/utils/getComicPage';
 import mdToHtml from '@/utils/mdToHtml';
