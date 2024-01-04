@@ -1,0 +1,76 @@
+- sd:
+  id: superdrow
+  name: Superdrow II
+  title: Pollogufo di Lagarde
+  class: Monaco/Mago
+  race: Elfo Oscuro (Drow)
+  alignment: Caotico Neutrale
+  stats: [
+    8
+    14
+    11
+    20
+    10
+    10
+  ]
+  desc: >
+    Per gli amici "SD", oppure "idiota".
+    Elfo oscuro con una innata predisposizione per la magia. Caotico sbruffone piromane e testardo, ma ha anche dei difetti...
+    Suo padre era un avventuriero della prima edizione che gli ha lasciato in eredita' un artefatto che pero' lui non ha mai osato toccare.
+
+- croc:
+  id: croc
+  name: CROC
+  title: The spinebreaker
+  class: Barbaro
+  race: Orco
+  alignment: Caotico Buono
+  stats: [
+    20
+    14
+    18
+    3
+    10
+    9
+  ]
+  desc: >
+    Grosso, brutto, cattivo, puzzolente e violento.
+    Nonostante tutto reputa il resto del gruppo come la sua famiglia, ma e' comunque meglio non contraddirlo mai.
+
+- stu:
+  id: stu
+  name: Stu
+  title: il vigliacco
+  class: '????'
+  race: '????'
+  alignment: '????'
+  stats: [
+    '??',
+    '??',
+    '??',
+    '??',
+    '??',
+    '??'
+  ]
+  desc: >
+    Un viscido infido bugiardo con scarsa propensione al dialogo e alla compassione.
+    Non ha mai raccontato nulla del proprio passato, probabilmente ha qualche questione in sospeso con qualcuno.
+  
+- frank:
+  id: frank
+  name: Frank
+  title: '...'
+  class: Druido
+  race: Umano
+  alignment: Neutrale Puro
+  stats: [
+    9
+    12
+    13
+    12
+    18
+    16
+  ]
+  desc: >
+    Ultimo membro del gruppo, deve ancora capire come gira il mondo del gioco.
+    Ciononostante la sua imprevedibilita' e il suo essere fuori dagli schemi lo aiuta spesso a cavarsela egregiamente.

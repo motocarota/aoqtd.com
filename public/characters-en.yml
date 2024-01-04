@@ -1,0 +1,77 @@
+- sd:
+  id: superdrow
+  name: Superdrow II
+  title: Pollogufo from Lagarde
+  class: Monk/Wizard
+  race: Dark Elf (Drow)
+  alignment: Chaotic Neutral
+  stats: [
+    8
+    14
+    11
+    20
+    10
+    10
+  ]
+  desc: >
+    "SD" for his friends, or "idiot".
+    Dark elf with an innate flair for magic. Chaotic, braggart, pyromaniac and stubborn, but he also has some flaws....
+    Suo padre era un avventuriero della prima edizione che gli ha lasciato in eredita' un artefatto che pero' lui non ha mai osato toccare.
+    His father was an adventurer from the first-edition who bequeathed him an artifact that he never dared to touch, though.
+
+- croc:
+  id: croc
+  name: CROC
+  title: The spinebreaker
+  class: Barbarian
+  race: Orc
+  alignment: Chaotic Good
+  stats: [
+    20
+    14
+    18
+    3
+    10
+    9
+  ]
+  desc: >
+    Big, ugly, mean, violent and smelly.
+    Despite everything he considers the rest of the group to be his family, but it's still a good idea to never contradict him.
+
+- stu:
+  id: stu
+  name: Stu
+  title: The coward
+  class: '????'
+  race: '????'
+  alignment: '????'
+  stats: [
+    '??',
+    '??',
+    '??',
+    '??',
+    '??',
+    '??'
+  ]
+  desc: >
+    A slimy treacherous liar with little inclination for dialogue and compassion.
+    He has never shared anything about his past; he probably has some unfinished business with somebody.
+  
+- frank:
+  id: frank
+  name: Frank
+  title: '...'
+  class: Druid
+  race: Human
+  alignment: True Neutral
+  stats: [
+    9
+    12
+    13
+    12
+    18
+    16
+  ]
+  desc: >
+    The last member to join the group, he has yet to understand how the game world turns.
+    Nonetheless, his unpredictability and thinking out of the box often helps him cope remarkably well.
