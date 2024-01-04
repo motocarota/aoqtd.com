@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Links from './Links';
 
 const linksCol1 = [
-	{label: 'About', to: 'faq'},
+	{label: 'About', to: 'about'},
 	{label: 'Characters', to: 'characters'},
 	{label: 'Monsters', to: 'monsters'},
 	// {label: 'PNGs', to: 'pngs'},
