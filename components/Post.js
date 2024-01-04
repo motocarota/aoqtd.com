@@ -6,7 +6,7 @@ export default function Post({md}) {
 	}
 
 	return (
-		<Box maw='700' mx='auto' my='md' style={{
+		<Box maw='880' mx='auto' my='md' style={{
 			background: '#fafafa',
 			padding: '1rem',
 			borderRadius: '1rem',

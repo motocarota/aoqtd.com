@@ -11,7 +11,7 @@ export default function FAQ({loc}) {
 				{t.title}
 			</Title>
 			<Title order={5} mb='lg'>{t.subtitle}</Title>
-			<Accordion maw='900' m='auto' variant='contained'>
+			<Accordion maw='880' m='auto' variant='contained'>
 				{t.faq.map((f, index) => (
 					<AccordionItem value={`${index}`} key={index}>
 						<AccordionControl>
