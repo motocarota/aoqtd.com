@@ -11,16 +11,17 @@ const linksCol1 = [
 ];
 
 const linksCol2 = [
-	{label: 'Hall of Fame', to: 'hall-of-fame'},
-	{label: 'Other webcomics', to: 'other-webcomics'},
-	{label: 'Fan art', to: 'fan-art'},
-	{label: 'd20 SRD', href: 'https://www.d20srd.org/'},
+	// {label: 'Hall of Fame', to: 'hall-of-fame'},
+	// {label: 'Other webcomics', to: 'other-webcomics'},
+	// {label: 'Fan art', to: 'fan-art'},
+	// {label: 'd20 SRD', href: 'https://www.d20srd.org/'},
 ];
 
 const linksCol3 = [
 	{label: 'Join the party', href: 'https://www.patreon.com/motocarota'},
 	{label: 'Report a typo', href: 'mailto:motocarota@gmail.com'},
-	{label: 'Share to a friend', to: 'share'},
+	{label: 'd20 SRD', href: 'https://www.d20srd.org/'},
+	// {label: 'Share to a friend', to: 'share'},
 	{label: 'Send a suggestion', href: 'mailto:motocarota@gmail.com'},
 ];
 

@@ -20,7 +20,7 @@ export default function Home({
 		<>
 			<Comic comic={comic} />
 			<Post md={md} />
-			<Box maw={880} mx='auto' p='md' bg='#fafafa' style={{borderRadius: 10}}>
+			<Box maw={880} my='xl' mx='auto' p='md' bg='#fafafa' style={{borderRadius: 10}}>
 				<ReactCusdis
 					attrs={{
 						host: 'https://cusdis.com',
