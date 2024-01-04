@@ -1,21 +1,16 @@
 ### TODO AOQTD SITE
 
-- rimpiazzare i commenti attuali con qualcosa di meglio
-  - login with email/google/fb/...
-  - 
+
+### ISSUES
+
+- one chapter back non funziona come dovrebbe:
+  al primo clic dovrebbe mandarti all'inizio del capitolo, poi a quello precedente
+  in realta' manda subito al precedente
 
 # PIANO D'AZIONE:
 
 - pagina work in progress/ci vediamo la sett prossima con una nuova pagina
-- guardare nuclear pasta per capire che cosa aggiungere al sito
 
-
-- commenti usando upstash free tier
-    https://vercel.com/templates/next.js/blog-with-comments
-    https://upstash.com/pricing
-    https://auth0.com/pricing
-
-    vercel free trial? https://vercel.com/pricing
 
 - [x] commenti
 - [ ] post per ogni pagina
