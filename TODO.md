@@ -1,11 +1,9 @@
 ### TODO AOQTD SITE
 
+- next button quando si arriva all'ultima pagina deve far comparire un popup (ci vediamo tra una settimana!)
+
 
 ### ISSUES
-
-- one chapter back non funziona come dovrebbe:
-  al primo clic dovrebbe mandarti all'inizio del capitolo, poi a quello precedente
-  in realta' manda subito al precedente
 
 # PIANO D'AZIONE:
 
@@ -13,14 +11,21 @@
 
 
 - [x] commenti
-- [ ] post per ogni pagina
+- [x] post per ogni pagina
 - [ ] 4 pagine di cuscinetto
+- [ ] analytics
 ------
 - [ ] rilascio
 ------
 - [ ] promozione su reddit
 - [ ] promozione su patreon
-- [ ] contattare nuclear pasta
+- [ ] contattare altri autori di fumetti per pubblicizzarmi 
+  - nuclear pasta
+  - oglaf
+  - k6bd
+  - the weekly roll
+  - oots
+  - ...
 
 
 CONTENUTI
@@ -28,14 +33,10 @@ CONTENUTI
   - controllare il bbeg che abbia tutto a posto
   - ricontrollare tutti i testi
     it/01/003 "inziamo"
-    */03/011 add fuoco fumo della palla di fuoco
-    it/04/* txt
-    it/05/* txt
 
 CONTENUTI EXTRA
-  - character page?
   
-  - new reader?
+  - pagina con i personaggi
 
   - pagina credits, note, ... tutta la roba noiosa che mettono prima dopo la storia
 
