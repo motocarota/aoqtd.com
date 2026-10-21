@@ -1,15 +1,15 @@
 ## TODO
 
 - [x] commenti con giscus
-- [ ] includere copertine di capitolo
-- [ ] newsletter (brevo)
-  - [ ] import contatti da ghost a brevo
-  - [ ] subscribe button
-  - [ ] subscribe area
 - [x] migrare aoqtd da mixpanel a goatcounter
 - [x] recuperato repo GH
 - [x] GH pages working
 - [x] setup CI deploy
+- [x] newsletter (brevo)
+  - [x] import contatti da ghost a brevo
+  - [x] subscribe button
+  - [x] subscribe area
+- [ ] includere copertine di capitolo
 - [ ] setup dns per puntare a GL pages
 - [ ] togliere dati carta credito da ghost
 

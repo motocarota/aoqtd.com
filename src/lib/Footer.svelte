@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { SITE_NAME } from '$lib/config';
+	import SubscribeButton from '$lib/SubscribeButton.svelte';
 
 	const year = new Date().getFullYear();
 
@@ -16,7 +17,7 @@
 </script>
 
 <div class="divider divider-primary mx-auto max-w-3xl opacity-30 my-0"></div>
-
+<SubscribeButton />
 <footer
 	class="footer footer-center bg-base-100 text-base-content pt-8 pb-2 px-4 gap-10 flex flex-col"
 >
