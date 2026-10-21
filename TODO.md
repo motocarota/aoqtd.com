@@ -8,20 +8,17 @@
   - [ ] subscribe area
 - [x] migrare aoqtd da mixpanel a goatcounter
 - [x] recuperato repo GH
-- [ ] GH pages working
-- [ ] setup CI deploy
+- [x] GH pages working
+- [x] setup CI deploy
 - [ ] setup dns per puntare a GL pages
 - [ ] togliere dati carta credito da ghost
 
 ## TODO DOPO
 
-- [ ] implementare commenti e likes
 - [ ] (vedere pagine fediverse)
       https://indiewebify.me/
-- [ ] like/dislike (migrare via da instantdb)
-- [ ] commenti con utteranc.es/giscus
-      https://github.com/giscus/giscus-component
 - [ ] un mostriciattolo in basso a sx
+- [ ] next button quando si arriva all'ultima pagina deve far comparire un popup (ci vediamo tra una settimana!)
 
 ## motocarota.art
 
@@ -33,31 +30,18 @@
 - [ ] guestbook
 - [ ] get in touch
 
-# NOTE
+CONTENUTI EXTRA (pagine)
 
-- commenti soluzioni alternative
+  - illustrazioni/immagini di accompagnamento/rottura tra i capitoli stile db
+    - personaggi in moto/auto/a cavallo di un dino
+    - griglia 3x3 con i protagonisti
+    - protagonisti in posa di combattimento
+    - protagonisti vestiti in maniera diversa (es. metallari/punkozzi)
+    - protagonisti che viaggiano/dormono/mangiano
+    - mini storia stile one-piece che avanza sui personaggi secondari
 
-  Giscus
+    https://www.hiveworkscomics.com/
 
-  Basato su GitHub Discussions.
-  Nessun costo, nessun server da gestire.
-  Richiede repository GitHub pubblico.
-  Sito: giscus.app
-
-  Utterances
-
-  Basato su GitHub Issues.
-  Simile a Giscus, più semplice.
-  Sito: utteranc.es
-
-  Cusdis
-
-  Leggero, privacy-focused.
-  Free tier su hosting ufficiale, oppure self-hosted gratis.
-  Sito: cusdis.com
-
-  Remark42
-
-  Self-hosted, open source.
-  Nessun tracking, nessun costo se ospitato in proprio.
-  Richiede server (es. VPS gratuito o container Docker).
+    webcomics
+      http://webcomics.dualsquirrel.net/
+      http://jessfink.com/Chester5000XYV/
