@@ -1,18 +1,46 @@
-<script>
+<script lang="ts">
+	import { env } from '$env/dynamic/public';
+
 	const { chapter, page } = $props();
 
-	// TODO fetch comments from idb
-	const comments = [
-		{
-			author: 'Anonimous Nerd',
-			time: '2 hours ago',
-			body: 'That count has zero chill and I love it.'
-		},
-		{ author: 'DungeonEnjoyer42', time: '5 hours ago', body: 'Poor DM. As always.' }
-	];
+	let container: HTMLDivElement;
 
-	// svelte-ignore state_referenced_locally
-	console.log('fetching commments for ', chapter, page);
+	// Giscus renders inside an iframe created by its client script, so the
+	// script is (re)injected on the client whenever the comic page changes.
+	$effect(() => {
+		const { PUBLIC_GISCUS_REPO_ID, PUBLIC_GISCUS_CATEGORY, PUBLIC_GISCUS_CATEGORY_ID } = env;
+		if (!PUBLIC_GISCUS_REPO_ID || !PUBLIC_GISCUS_CATEGORY_ID) return;
+
+		const term = `c${chapter}-p${page}`;
+
+		const script = document.createElement('script');
+		script.src = 'https://giscus.app/client.js';
+		script.async = true;
+		script.crossOrigin = 'anonymous';
+
+		script.dataset.repo = env.PUBLIC_GISCUS_REPO ?? 'motocarota/aoqtd.com';
+		script.dataset.repoId = PUBLIC_GISCUS_REPO_ID;
+		script.dataset.category = PUBLIC_GISCUS_CATEGORY ?? '';
+		script.dataset.categoryId = PUBLIC_GISCUS_CATEGORY_ID;
+		script.dataset.mapping = 'specific';
+		// Mapping is by term, not by domain: prefix it in dev so local tests
+		// don't leak into the production threads.
+		script.dataset.term = import.meta.env.DEV ? `dev-${term}` : term;
+		script.dataset.strict = '0';
+		script.dataset.reactionsEnabled = '1';
+		script.dataset.emitMetadata = '0';
+		script.dataset.inputPosition = 'top';
+		script.dataset.theme = 'light';
+		script.dataset.lang = 'en';
+		script.dataset.loading = 'lazy';
+
+		// The container has no Svelte-managed children, only the giscus iframe.
+		/* eslint-disable svelte/no-dom-manipulating */
+		container.replaceChildren(script);
+
+		return () => container.replaceChildren();
+		/* eslint-enable svelte/no-dom-manipulating */
+	});
 </script>
 
 <section class="mt-4">
@@ -22,25 +50,5 @@
 		Comments
 	</div>
 
-	<ul class="mt-6 flex flex-col gap-4">
-		{#each comments as comment (comment.time)}
-			<li class="flex gap-3">
-				<!-- Avatar placeholder -->
-				<div class="avatar avatar-placeholder">
-					<div class="bg-neutral text-neutral-content rounded-full size-8 shrink-0">
-						<span class="font-ui text-xs">{comment.author[0]}</span>
-					</div>
-				</div>
-				<div class="flex flex-col gap-0.5">
-					<div class="flex items-baseline gap-2">
-						<span class="font-ui text-xs font-semibold tracking-wide text-base-content/80">
-							{comment.author}
-						</span>
-						<span class="font-ui text-xs text-base-content/30">{comment.time}</span>
-					</div>
-					<p class="text-sm text-base-content/70 leading-relaxed">{comment.body}</p>
-				</div>
-			</li>
-		{/each}
-	</ul>
+	<div bind:this={container} class="mt-6"></div>
 </section>

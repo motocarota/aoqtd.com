@@ -1,7 +1,7 @@
 <script lang="ts">
 	import ComicNavigation from '$lib/ComicNavigation.svelte';
 	import Comments from '$lib/Comments.svelte';
-	import LikeDislike from '$lib/LikeDislike.svelte';
+	// import LikeDislike from '$lib/LikeDislike.svelte';
 	import Caption from './Caption.svelte';
 	import Seo from '$lib/Seo.svelte';
 
@@ -48,7 +48,7 @@
 	</a>
 
 	<ComicNavigation {prevSlug} {nextSlug} />
-	<LikeDislike {chapter} {page} />
+	<!-- <LikeDislike {chapter} {page} /> -->
 	<Caption {caption} />
 	<Comments {chapter} {page} />
 </article>

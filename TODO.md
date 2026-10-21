@@ -1,14 +1,14 @@
 ## TODO
 
-- [ ] nascondere commenti e likes
+- [x] commenti con giscus
 - [ ] includere copertine di capitolo
 - [ ] newsletter (brevo)
   - [ ] import contatti da ghost a brevo
   - [ ] subscribe button
   - [ ] subscribe area
 - [x] migrare aoqtd da mixpanel a goatcounter
-- [ ] nuovo repo GL
-- [ ] GL pages
+- [x] recuperato repo GH
+- [ ] GH pages working
 - [ ] setup CI deploy
 - [ ] setup dns per puntare a GL pages
 - [ ] togliere dati carta credito da ghost
