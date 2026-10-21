@@ -1,1 +1,0 @@
-Quando il cartello dice "soldi gratis" c'e' quasi sempre la fregatura!

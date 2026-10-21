@@ -1,1 +1,0 @@
-"no, ma ci sei andato pericolosamente vicino..."

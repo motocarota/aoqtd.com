@@ -1,1 +1,0 @@
-lf1m dps last spot, good and geared group, fast clear, 5.5k gearscore min, must have achievement 10/10h, know your place, no noobs, no idiots, no hunters and NO ELVES!!!!1!

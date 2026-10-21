@@ -1,6 +1,0 @@
-- ditata nell'occhio!
-- stretta folgorante!!
-- ditata folgorante!!!
-- stretta all'occhio!!!!
-- occhiata folgorante!!!!!
-- ditata stretta all'occhio... --vabbe' basta, non fa piu' ridere

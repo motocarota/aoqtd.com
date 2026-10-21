@@ -1,1 +1,0 @@
-dio mio, ora ricordo come mai non disegnavo mai gli sfondi.... 🤮

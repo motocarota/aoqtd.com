@@ -1,9 +1,0 @@
-BANG
-
-BIFF
-
-SCIACC
-
-PAF
-
-BLET

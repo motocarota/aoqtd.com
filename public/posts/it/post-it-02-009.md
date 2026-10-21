@@ -1,2 +1,0 @@
-- "guarda, sono piuttosto sicuro che i druidi non possano usare roba di metallo"
-- "naah, quelli sono i vegetariani!"

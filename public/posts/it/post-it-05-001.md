@@ -1,1 +1,0 @@
-Qui si ride e si scherza, ma questa scena ci e' successa veramente mentre giocavamo a DnD, precisa!

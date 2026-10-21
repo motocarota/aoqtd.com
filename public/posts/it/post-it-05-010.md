@@ -1,1 +1,0 @@
-Allora la vogliamo smettere con questo baccano? c'e' gente che sta cercando di essere digerita qui!

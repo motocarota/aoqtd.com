@@ -1,1 +1,0 @@
-"ah... e cosi' saresti immune agli attacchi furtivi eh?"

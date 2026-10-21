@@ -1,68 +1,63 @@
-### TODO AOQTD SITE
+## TODO
 
-- next button quando si arriva all'ultima pagina deve far comparire un popup (ci vediamo tra una settimana!)
+- [ ] nascondere commenti e likes
+- [ ] includere copertine di capitolo
+- [ ] newsletter (brevo)
+  - [ ] import contatti da ghost a brevo
+  - [ ] subscribe button
+  - [ ] subscribe area
+- [x] migrare aoqtd da mixpanel a goatcounter
+- [ ] nuovo repo GL
+- [ ] GL pages
+- [ ] setup CI deploy
+- [ ] setup dns per puntare a GL pages
+- [ ] togliere dati carta credito da ghost
 
+## TODO DOPO
 
-### ISSUES
+- [ ] implementare commenti e likes
+- [ ] (vedere pagine fediverse)
+      https://indiewebify.me/
+- [ ] like/dislike (migrare via da instantdb)
+- [ ] commenti con utteranc.es/giscus
+      https://github.com/giscus/giscus-component
+- [ ] un mostriciattolo in basso a sx
 
-# PIANO D'AZIONE:
+## motocarota.art
 
-- pagina work in progress/ci vediamo la sett prossima con una nuova pagina
+- [ ] altri fumetti
+- [ ] strips
+- [ ] illustrazioni
+- [ ] blog/news
+- [ ] social share button
+- [ ] guestbook
+- [ ] get in touch
 
+# NOTE
 
-- [x] commenti
-- [x] post per ogni pagina
-- [ ] 4 pagine di cuscinetto
-- [ ] analytics
-------
-- [ ] rilascio
-------
-- [ ] promozione su reddit
-- [ ] promozione su patreon
-- [ ] contattare altri autori di fumetti per pubblicizzarmi 
-  - nuclear pasta
-  - oglaf
-  - k6bd
-  - the weekly roll
-  - oots
-  - ...
+- commenti soluzioni alternative
 
+  Giscus
 
-CONTENUTI
+  Basato su GitHub Discussions.
+  Nessun costo, nessun server da gestire.
+  Richiede repository GitHub pubblico.
+  Sito: giscus.app
 
-  - controllare il bbeg che abbia tutto a posto
-  - ricontrollare tutti i testi
-    it/01/003 "inziamo"
+  Utterances
 
-CONTENUTI EXTRA
-  
-  - pagina con i personaggi
+  Basato su GitHub Issues.
+  Simile a Giscus, più semplice.
+  Sito: utteranc.es
 
-  - pagina credits, note, ... tutta la roba noiosa che mettono prima dopo la storia
+  Cusdis
 
-  - illustrazioni/immagini di accompagnamento/rottura tra i capitoli stile db 
-    - goku in moto/auto/a cavallo di un dino
-    - griglia 3x3 con i protagonisti
-    - protagonisti in posa di combattimento
-    - protagonisti vestiti in maniera diversa (es. metallari/punkozzi)
-    - protagonisti che viaggiano/dormono/mangiano
-    - mini storia stile one-piece che avanza sui personaggi secondari
+  Leggero, privacy-focused.
+  Free tier su hosting ufficiale, oppure self-hosted gratis.
+  Sito: cusdis.com
 
-  - sezione raccomandazioni (?)
+  Remark42
 
-    https://www.hiveworkscomics.com/
-
-    webcomics
-      http://webcomics.dualsquirrel.net/
-      http://jessfink.com/Chester5000XYV/
-
-
-
-
-DOPO
----
-- includere il post (o un excerpt nel feed rss!)
-- aggiungere tooltip al bottone next quando disabilitato
-  continue, new page every week
-    oppure pagina finale
-- aggiornare il tema: piu' colore, meno sterile
+  Self-hosted, open source.
+  Nessun tracking, nessun costo se ospitato in proprio.
+  Richiede server (es. VPS gratuito o container Docker).

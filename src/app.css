@@ -1,0 +1,122 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+	name: 'aoqtd';
+	default: true;
+	prefersdark: false;
+	color-scheme: light;
+
+	font-size: 1rem;
+	line-height: 1.8;
+	color: var(--color-primary-content);
+
+	--color-base-100: oklch(92% 0.02 97.4);
+	--color-base-200: oklch(95% 0.015 85);
+	--color-base-300: oklch(90% 0.02 85);
+	--color-base-content: oklch(25% 0.02 50);
+
+	--color-primary: oklch(75% 0.1 75);
+	--color-primary-content: oklch(42% 0.1 50);
+
+	--color-secondary: oklch(40% 0.1 30);
+	--color-secondary-content: oklch(92% 0.01 30);
+
+	--color-accent: oklch(58% 0.11 55);
+	--color-accent-content: oklch(98% 0.01 85);
+
+	--color-neutral: oklch(35% 0.02 50);
+	--color-neutral-content: oklch(96% 0.01 85);
+
+	--color-info: oklch(65% 0.1 240);
+	--color-success: oklch(65% 0.12 145);
+	--color-warning: oklch(80% 0.12 85);
+	--color-error: oklch(60% 0.2 25);
+
+	--radius-selector: 0.4rem;
+	--radius-field: 0.4rem;
+	--radius-box: 0.5rem;
+
+	--border: 1px;
+	--depth: 1;
+	--noise: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+	color: var(--color-accent);
+}
+
+h1 {
+	font-size: clamp(1.8rem, 5vw, 2.8rem);
+	font-weight: 700;
+	border-bottom: 1px solid var(--color-accent);
+	padding-bottom: 0.05em;
+}
+
+h2 {
+	font-size: clamp(1.3rem, 3vw, 1.9rem);
+	font-weight: 800;
+	margin-top: 1em;
+	margin-bottom: 0.6em;
+}
+
+h3 {
+	font-size: 1.2rem;
+	margin: 0.6em 0;
+	font-weight: 600;
+}
+
+nav,
+.ui-label {
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content a,
+a:hover {
+	color: var(--color-accent);
+	text-decoration: underline;
+}
+
+article img,
+.prose img {
+	border-radius: var(--radius-box);
+	border: 1px solid var(--color-base-300);
+	max-width: 100%;
+	height: auto;
+}
+
+img {
+	margin: 1rem auto;
+	border-radius: 0.3rem;
+}
+
+figure > img {
+	margin: 0;
+	border-radius: 0rem;
+}
+
+.divider {
+	color: var(--color-primary);
+	opacity: 0.4;
+}
+
+.content {
+	width: 100%;
+	max-width: 700px;
+	margin: 2rem auto;
+}
+
+p {
+	margin: 0.7rem auto;
+}

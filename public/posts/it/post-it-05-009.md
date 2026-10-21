@@ -1,1 +1,0 @@
-Ho guardato film con dibattiti meno profondi di questo.

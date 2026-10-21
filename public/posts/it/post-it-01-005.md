@@ -1,1 +1,0 @@
-Si okay, ma 3 contro 1 non e' valido!

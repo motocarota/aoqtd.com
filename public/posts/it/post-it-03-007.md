@@ -1,1 +1,0 @@
-Le dimensioni non contano ...se sei in un manga!

@@ -1,1 +1,0 @@
-"Riesco a colpirlo con un 3?"

@@ -1,1 +1,0 @@
-Che cosa conterra' il pacchetto regalo?

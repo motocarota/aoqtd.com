@@ -1,1 +1,0 @@
-Adoro il modo in cui SD incassa quel mega cazzotto

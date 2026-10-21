@@ -1,1 +1,0 @@
-"It seems my club just spilled some piss into my hand!"

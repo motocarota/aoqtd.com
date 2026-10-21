@@ -1,1 +1,0 @@
-"...ma come mai sei bagnato amico coboldo?"

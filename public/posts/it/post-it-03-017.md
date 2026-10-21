@@ -1,1 +1,0 @@
-Eh eh... quella che pensi tu e' una skill del bardo, amico!

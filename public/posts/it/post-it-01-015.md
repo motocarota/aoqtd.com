@@ -1,3 +1,0 @@
-- "questo posto e' la tua immaginazione!"
-- "...ma e' tutto vuoto, freddo e completamente sterile!!"
-- "e' per questo che fai schifo!"

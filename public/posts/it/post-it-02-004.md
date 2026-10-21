@@ -1,1 +1,0 @@
-Guarda dove metti i piedi amico, ti avviso che sono di livello 3!

@@ -1,1 +1,0 @@
-Per chi non avesse riconosciuto la testa mozzata per terra e' quella del quest giver di pagina 1... bei tempi!

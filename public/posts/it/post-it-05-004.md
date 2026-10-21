@@ -1,1 +1,0 @@
-"HA! Sei rimasto intrappolato all'esterno della MIA bolla!!!"

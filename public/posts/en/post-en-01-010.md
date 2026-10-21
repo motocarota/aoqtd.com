@@ -1,1 +1,0 @@
-Please don't underestimate the risk of death by starvation and dehydration for unsupervisioned low-level characters

@@ -1,1 +1,0 @@
-"credo che la mia clava mi abbia appena pisciato in mano!"

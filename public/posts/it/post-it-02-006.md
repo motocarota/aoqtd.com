@@ -1,1 +1,0 @@
-"...ma... hey!! ma... era la risposta corretta almeno?"
