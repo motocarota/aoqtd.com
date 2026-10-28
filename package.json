@@ -12,6 +12,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
 		"lint:fix": "prettier --write . && eslint . --fix",
+		"sync:comics": "mkdir -p static/comic && find \"$HOME/projects/AOQTD/episodi\" -type f -name '*.webp' -exec cp {} static/comic/ \\;",
 		"format": "prettier --write ."
 	},
 	"devDependencies": {

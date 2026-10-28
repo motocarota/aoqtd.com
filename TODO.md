@@ -1,15 +1,6 @@
 ## TODO
 
-- [x] commenti con giscus
-- [x] migrare aoqtd da mixpanel a goatcounter
-- [x] recuperato repo GH
-- [x] GH pages working
-- [x] setup CI deploy
-- [x] newsletter (brevo)
-  - [x] import contatti da ghost a brevo
-  - [x] subscribe button
-  - [x] subscribe area
-- [ ] includere copertine di capitolo
+- [x] includere copertine di capitolo
 - [ ] setup dns per puntare a GL pages
 - [ ] togliere dati carta credito da ghost
 
@@ -19,6 +10,7 @@
       https://indiewebify.me/
 - [ ] un mostriciattolo in basso a sx
 - [ ] next button quando si arriva all'ultima pagina deve far comparire un popup (ci vediamo tra una settimana!)
+- [ ] aggiornare newsletter in maniera smart (es. n8n: RSS -> brevo)
 
 ## motocarota.art
 
