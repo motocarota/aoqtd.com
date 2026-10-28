@@ -13,7 +13,7 @@
 
 ### the crazy mage
 
-<img src="/sd.webp" />
+<img src="/sd.webp" alt="Superdrow II, the crazy mage" />
 
 Dark elf with an innate flair for magic. Chaotic, braggart, pyromaniac and nerd, but he also has some flaws...
 Gifted with incredible intelligence, which barely compensates for his pitiful physical prowess.
@@ -24,7 +24,7 @@ His father was a first edition adventurer who left him an incredible artifact th
 
 ### the spinebreaker
 
-<img src="/croc.webp" />
+<img src="/croc.webp" alt="Croc, the spinebreaker" />
 
 A crude, ugly, ignorant, bullying, dumb, stinky, illiterate barbarian orc.
 Has some difficulty dealing with anger and complexity especially when the two happen simultaneously.
@@ -34,7 +34,7 @@ In some distorted way he thinks of the rest of the group as his family, but it's
 
 ### The asshole
 
-<img src="/stu.webp" />
+<img src="/stu.webp" alt="Stu, the asshole" />
 
 A slimy treacherous liar with no inclination for empathy or compassion.
 Stu would sell his mother for two copper coins, if only he hadn't already done so years ago.
@@ -44,7 +44,7 @@ He has never told anything about his past and hides his character sheet from the
 
 ### The weekend druid
 
-<img src="/frank.webp" />
+<img src="/frank.webp" alt="Frank, the weekend druid" />
 
 For him the only good animals are cooked ones, wood is only good for burning and he throws rubbish on the ground. Truly a terrible boyscout....
 Unfortunately, the group couldn't find any better.
@@ -54,7 +54,7 @@ He's undoubtedly the most useless member of the group, but he just started playi
 
 ### The everything
 
-<img src="/dm.webp" />
+<img src="/dm.webp" alt="The DM, the everything" />
 
 Making a cinematic comparison, he's like the director, the scriptwriter, almost all the actors AND the world.
 He decides what happens, what has happened and what will happen in the story of our friends.

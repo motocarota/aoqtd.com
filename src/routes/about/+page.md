@@ -11,7 +11,7 @@
 
 ## About the comic
 
-<img src="about.webp" />
+<img src="about.webp" alt="Another One Quest to Dust" />
 
 Looking for heroic deeds, romance and epic battles against evil? EW!!
 Just skip on the next webcomic, then!
@@ -25,7 +25,7 @@ This is my current hobby, is free for everyone and I want to keep it this way.
 
 ## About the author
 
-<img src="me.webp" />
+<img src="me.webp" alt="Simone Poggi, author of Another One Quest to Dust" />
 
 My name is **Simone Poggi** AKA **motocarota**, and I’m the author of **Another One Quest to Dust**: the story of our stories in the world of tabletop roleplay games.
 

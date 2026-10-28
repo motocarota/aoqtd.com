@@ -9,7 +9,7 @@
 
 # Join the party
 
-<img src="/join.webp" />
+<img src="/join.webp" alt="Join the party" />
 This is my personal passion project and I plan to add new pages every week, unless I roll a natural 1 on some nasty saving throw.
 
 **If you like what I'm doing** and you want to contribute to the project, please consider one or more of the following:
