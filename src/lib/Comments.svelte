@@ -43,7 +43,7 @@
 	});
 </script>
 
-<section class="mt-4">
+<section class="mt-4 mix-blend-multiply">
 	<div
 		class="divider divider-start text-base-content/30 text-xs font-ui tracking-widest uppercase my-0"
 	>
