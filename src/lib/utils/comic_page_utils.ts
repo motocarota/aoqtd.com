@@ -34,7 +34,7 @@ function toSlug(c: number, p: number): string {
 
 function getPrevPage(c: number, p: number) {
 	if (p === 0) {
-		if (c <= 1) {
+		if (c <= 0) {
 			// on first page --> null
 			return null;
 		}
