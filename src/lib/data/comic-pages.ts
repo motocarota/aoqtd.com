@@ -173,13 +173,13 @@ MWAHAHAHAHA
 	},
 	{
 		chapter: 8,
-		img: 'aoqtd-en-08-000',
+		img: 'aoqtd-en-08-001',
 		url: '/c1-p0',
 		title: 'Frank the druid',
 		desc: 'Part 1 of 3',
 		pubDate: '2026-12-17',
 		pages: [
-			{ img: 'aoqtd-en-08-000', caption: '', pubDate: '2025-12-17' },
+			{ img: 'aoqtd-en-08-001', caption: '', pubDate: '2025-12-17' },
 			{ img: 'aoqtd-en-08-004', caption: '', pubDate: '2025-12-17' },
 			{ img: 'aoqtd-en-08-005', caption: '', pubDate: '2025-12-17' },
 			{ img: 'aoqtd-en-08-006', caption: '', pubDate: '2025-12-18' },
@@ -281,6 +281,21 @@ MWAHAHAHAHA
 				img: 'aoqtd-en-09-015',
 				caption: 'hehe',
 				pubDate: '2026-04-25'
+			}
+		]
+	},
+	{
+		chapter: 9,
+		img: 'aoqtd-en-09-000',
+		url: '/c3-p0',
+		title: 'Frank the druid',
+		desc: 'Part 3 of 3',
+		pubDate: '2026-20-30',
+		pages: [
+			{
+				img: 'aoqtd-en-10-001',
+				caption: "Sure that guys looks like he's really pissed off",
+				pubDate: '2026-10-30'
 			}
 		]
 	}
