@@ -286,7 +286,7 @@ MWAHAHAHAHA
 	},
 	{
 		chapter: 9,
-		img: 'aoqtd-en-09-000',
+		img: 'aoqtd-en-10-000',
 		url: '/c3-p0',
 		title: 'Frank the druid',
 		desc: 'Part 3 of 3',
