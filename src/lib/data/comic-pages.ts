@@ -177,7 +177,7 @@ MWAHAHAHAHA
 		url: '/c1-p0',
 		title: 'Frank the druid',
 		desc: 'Part 1 of 3',
-		pubDate: '2026-12-17',
+		pubDate: '2025-12-17',
 		pages: [
 			{ img: 'aoqtd-en-08-001', caption: '', pubDate: '2025-12-17' },
 			{ img: 'aoqtd-en-08-004', caption: '', pubDate: '2025-12-17' },
@@ -285,20 +285,55 @@ MWAHAHAHAHA
 		]
 	},
 	{
-		chapter: 9,
+		chapter: 10,
 		img: 'aoqtd-en-10-001',
 		url: '/c3-p0',
 		title: 'Frank the druid',
 		desc: 'Part 3 of 3',
-		pubDate: '2026-20-30',
+		pubDate: '2026-10-30',
 		pages: [
 			{
 				img: 'aoqtd-en-10-001',
 				caption: "Sure that guys looks like he's really pissed off",
 				pubDate: '2026-10-30'
+			},
+			{
+				img: 'aoqtd-en-10-002',
+				caption:
+					"See if you can guess how many times I've made the central panel? hint: I've sweared a lot in the process",
+				pubDate: '2026-11-03'
+			},
+			{
+				img: 'aoqtd-en-10-003',
+				caption: "OMG it's sailor m- oh.. nope",
+				pubDate: '2026-11-06'
 			}
+			// {
+			// 	img: 'aoqtd-en-10-004',
+			// 	caption:
+			// 		"",
+			// 	pubDate: '2026-11-09'
+			// },
 		]
 	}
 ];
 
-export default comic_pages;
+// pages with a pubDate in the future are not published yet: since the site is
+// prerendered, they will show up at the first build on or after their pubDate.
+// Chapters left without any published page are hidden as well.
+function today() {
+	const d = new Date();
+	const pad = (n: number) => String(n).padStart(2, '0');
+	return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+const now = today();
+
+const published_pages = comic_pages
+	.map((chapter) => ({
+		...chapter,
+		pages: chapter.pages.filter((p) => p.pubDate <= now)
+	}))
+	.filter((chapter) => chapter.pages.length > 0);
+
+export default published_pages;
