@@ -1,10 +1,5 @@
 ## TODO
 
-- [x] includere copertine di capitolo
-- [ ] setup dns per puntare a GL pages
-- [ ] togliere dati carta credito da ghost
-
-## TODO DOPO
 
 - [ ] (vedere pagine fediverse)
       https://indiewebify.me/

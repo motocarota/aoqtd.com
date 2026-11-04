@@ -14,7 +14,9 @@
 		<path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
 	</NavigationButton>
 
-	<NavigationButton label="Chapters" to="/chapter-list" key="c" />
+	<NavigationButton label="Chapters" to="/chapter-list" key="c" iconClass="md:hidden">
+		<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+	</NavigationButton>
 
 	<NavigationButton label="Next" to={nextSlug} reverse key="ArrowRight">
 		<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />

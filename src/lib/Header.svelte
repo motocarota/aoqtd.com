@@ -15,7 +15,7 @@
 <div class="bg-white w-screen pt-6">
 	<div class="text-center">
 		<a href={resolve('/')}>
-			<img src="/banner.png" alt={SITE_SHORT_NAME} class="mx-auto w-auto max-w-100 max-w-full" />
+			<img src="/banner.png" alt={SITE_SHORT_NAME} class="mx-auto w-auto max-w-125" />
 		</a>
 	</div>
 	<nav class="border-base-300 border-t">

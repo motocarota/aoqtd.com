@@ -3,7 +3,7 @@
 	import { resolve } from '$app/paths';
 	import type { Pathname } from '$app/types';
 
-	let { to, label, children = null, reverse = false, key = null } = $props();
+	let { to, label, children = null, reverse = false, key = null, iconClass = '' } = $props();
 
 	function navigateTo(url?: string) {
 		if (url) {
@@ -32,7 +32,7 @@
 	{#if !!children}
 		<svg
 			fill="none"
-			class="size-4"
+			class="size-4 {iconClass}"
 			stroke-width="2"
 			viewBox="0 0 24 24"
 			stroke="currentColor"
