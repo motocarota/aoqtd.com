@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://www.aoqtd.com';
+export const SITE_URL = 'https://aoqtd.com';
 export const SITE_NAME = 'Another One Quest to Dust';
 export const SITE_SHORT_NAME = 'AOQTD';
 export const DEFAULT_DESCRIPTION =

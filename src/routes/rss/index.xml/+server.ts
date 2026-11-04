@@ -1,5 +1,6 @@
-// Served at `/rss/` (prerendered to `rss/index.html`) to keep the same URL as
-// the old Ghost feed: GitHub Pages only resolves `/rss/` to an `index.html`.
+// Served at `/rss/` (prerendered to `rss/index.xml`) to keep the same URL as
+// the old Ghost feed: GitHub Pages resolves `/rss/` to `index.xml` too, and
+// serves it as `application/xml` (an `index.html` would be `text/html`).
 export const prerender = true;
 import comic_pages from '$lib/data/comic-pages';
 import { SITE_NAME, DEFAULT_DESCRIPTION, absoluteUrl } from '$lib/config';
